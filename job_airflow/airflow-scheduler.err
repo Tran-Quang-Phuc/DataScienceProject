@@ -1,0 +1,5 @@
+[2023-12-03 09:16:06 +0700] [66667] [INFO] Starting gunicorn 21.2.0
+[2023-12-03 09:16:06 +0700] [66667] [INFO] Listening at: http://[::]:8793 (66667)
+[2023-12-03 09:16:06 +0700] [66667] [INFO] Using worker: sync
+[2023-12-03 09:16:06 +0700] [66668] [INFO] Booting worker with pid: 66668
+[2023-12-03 09:16:07 +0700] [66669] [INFO] Booting worker with pid: 66669

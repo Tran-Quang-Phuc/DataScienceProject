@@ -1,0 +1,55 @@
+[2023-12-03T10:46:10.367+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_first_dag.crawl_data scheduled__2023-12-03T03:16:07.288425+00:00 [queued]>
+[2023-12-03T10:46:10.370+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_first_dag.crawl_data scheduled__2023-12-03T03:16:07.288425+00:00 [queued]>
+[2023-12-03T10:46:10.370+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-03T10:46:10.377+0700] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): crawl_data> on 2023-12-03 03:16:07.288425+00:00
+[2023-12-03T10:46:10.379+0700] {standard_task_runner.py:57} INFO - Started process 94317 to run task
+[2023-12-03T10:46:10.380+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'my_first_dag', 'crawl_data', 'scheduled__2023-12-03T03:16:07.288425+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpw6qfshkd']
+[2023-12-03T10:46:10.381+0700] {standard_task_runner.py:85} INFO - Job 23: Subtask crawl_data
+[2023-12-03T10:46:10.397+0700] {task_command.py:416} INFO - Running <TaskInstance: my_first_dag.crawl_data scheduled__2023-12-03T03:16:07.288425+00:00 [running]> on host phuc-ASUS
+[2023-12-03T10:46:10.427+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_first_dag' AIRFLOW_CTX_TASK_ID='crawl_data' AIRFLOW_CTX_EXECUTION_DATE='2023-12-03T03:16:07.288425+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-03T03:16:07.288425+00:00'
+[2023-12-03T10:46:10.428+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-03T10:46:10.428+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /home/phuc/Practice/DataScience/DSProject/job_airflow/dags && scrapy crawl quotes']
+[2023-12-03T10:46:10.432+0700] {subprocess.py:86} INFO - Output:
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/bin/scrapy", line 8, in <module>
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     sys.exit(execute())
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/cmdline.py", line 160, in execute
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     cmd.crawler_process = CrawlerProcess(settings)
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/crawler.py", line 357, in __init__
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     super().__init__(settings)
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/crawler.py", line 227, in __init__
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     self.spider_loader = self._get_spider_loader(settings)
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/crawler.py", line 221, in _get_spider_loader
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     return loader_cls.from_settings(settings.frozencopy())
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/spiderloader.py", line 79, in from_settings
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     return cls(settings)
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/spiderloader.py", line 34, in __init__
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     self._load_all_spiders()
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/spiderloader.py", line 63, in _load_all_spiders
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     for module in walk_modules(name):
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/scrapy/utils/misc.py", line 106, in walk_modules
+[2023-12-03T10:46:10.732+0700] {subprocess.py:93} INFO -     submod = import_module(fullpath)
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -   File "/home/phuc/Practice/DataScience/DSProject/job_cralwer/spiders/vietnamworks.py", line 18
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -     def get_job_link()
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO -                       ^
+[2023-12-03T10:46:10.733+0700] {subprocess.py:93} INFO - SyntaxError: expected ':'
+[2023-12-03T10:46:10.801+0700] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-12-03T10:46:10.805+0700] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-12-03T10:46:10.807+0700] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=my_first_dag, task_id=crawl_data, execution_date=20231203T031607, start_date=20231203T034610, end_date=20231203T034610
+[2023-12-03T10:46:10.818+0700] {standard_task_runner.py:104} ERROR - Failed to execute job 23 for task crawl_data (Bash command failed. The command returned a non-zero exit code 1.; 94317)
+[2023-12-03T10:46:10.833+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-03T10:46:10.850+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

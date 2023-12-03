@@ -1,0 +1,95 @@
+[2023-12-02T13:18:14.142+0700] {processor.py:157} INFO - Started process (PID=80841) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:18:14.142+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:18:14.143+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.143+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:18:14.154+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:18:14.215+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.214+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-02T13:18:14.220+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.220+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-02T13:18:14.224+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.224+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-02T13:18:14.224+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.224+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:18:14.229+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.229+0700] {dag.py:2963} INFO - Creating ORM DAG for example_sensors
+[2023-12-02T13:18:14.230+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:14.230+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:18:14.240+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2023-12-02T13:19:00.412+0700] {processor.py:157} INFO - Started process (PID=81051) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:19:00.419+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:19:00.420+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:00.420+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:19:00.434+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:19:00.445+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:00.445+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:19:00.451+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:00.451+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:19:00.461+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.052 seconds
+[2023-12-02T13:19:34.479+0700] {processor.py:157} INFO - Started process (PID=81265) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:19:34.487+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:19:34.488+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:34.487+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:19:34.502+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:19:34.531+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:34.531+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:19:34.552+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:34.552+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:19:34.590+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2023-12-02T13:20:10.728+0700] {processor.py:157} INFO - Started process (PID=81473) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:20:10.735+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:20:10.735+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:10.735+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:20:10.741+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:20:10.752+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:10.752+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:20:10.758+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:10.758+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:20:10.770+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.044 seconds
+[2023-12-02T13:20:44.812+0700] {processor.py:157} INFO - Started process (PID=81687) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:20:44.812+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:20:44.812+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:44.812+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:20:44.817+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:20:44.827+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:44.827+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:20:44.833+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:44.833+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:20:44.842+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.034 seconds
+[2023-12-02T13:21:20.462+0700] {processor.py:157} INFO - Started process (PID=81871) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:21:20.469+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:21:20.470+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:21:20.470+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:21:20.483+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:21:20.497+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:21:20.497+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:21:20.505+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:21:20.505+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:21:20.518+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.059 seconds
+[2023-12-02T13:22:05.668+0700] {processor.py:157} INFO - Started process (PID=82215) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:22:05.675+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:22:05.676+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:05.676+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:22:05.689+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:22:05.701+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:05.701+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:22:05.707+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:05.707+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:22:05.719+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.056 seconds
+[2023-12-02T13:22:51.777+0700] {processor.py:157} INFO - Started process (PID=82557) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:22:51.784+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:22:51.784+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:51.784+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:22:51.791+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:22:51.804+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:51.804+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:22:51.812+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:51.812+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:22:51.826+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.051 seconds
+[2023-12-02T13:23:34.414+0700] {processor.py:157} INFO - Started process (PID=82801) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:23:34.414+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:23:34.415+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:23:34.415+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:23:34.424+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:23:34.436+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:23:34.436+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:23:34.443+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:23:34.443+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:23:34.455+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.044 seconds
+[2023-12-02T13:24:14.497+0700] {processor.py:157} INFO - Started process (PID=82969) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:24:14.503+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:24:14.505+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:24:14.504+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:24:14.518+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:24:14.531+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:24:14.531+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:24:14.537+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:24:14.537+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:24:14.550+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.056 seconds
+[2023-12-02T13:25:01.093+0700] {processor.py:157} INFO - Started process (PID=83294) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:25:01.100+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:25:01.101+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:01.100+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:25:01.115+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:25:01.128+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:01.128+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:25:01.136+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:01.136+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:25:01.149+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.058 seconds
+[2023-12-02T13:25:48.529+0700] {processor.py:157} INFO - Started process (PID=83519) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:25:48.536+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:25:48.537+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:48.537+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:25:48.550+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:25:48.570+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:48.570+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:25:48.580+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:48.580+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:25:48.601+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.075 seconds
+[2023-12-02T13:26:23.680+0700] {processor.py:157} INFO - Started process (PID=83658) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:26:23.687+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-12-02T13:26:23.688+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:26:23.688+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:26:23.697+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-12-02T13:26:23.714+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:26:23.714+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:26:23.724+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:26:23.724+0700] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-12-02T13:26:23.743+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds

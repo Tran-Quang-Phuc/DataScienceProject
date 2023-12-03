@@ -1,0 +1,95 @@
+[2023-12-02T13:18:15.371+0700] {processor.py:157} INFO - Started process (PID=80851) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:18:15.371+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:18:15.372+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.371+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:18:15.379+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:18:15.444+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.444+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-02T13:18:15.450+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.450+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-02T13:18:15.454+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.453+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-02T13:18:15.454+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.454+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:18:15.459+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.459+0700] {dag.py:2963} INFO - Creating ORM DAG for example_complex
+[2023-12-02T13:18:15.459+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:18:15.459+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:18:15.471+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.102 seconds
+[2023-12-02T13:19:01.271+0700] {processor.py:157} INFO - Started process (PID=81052) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:19:01.278+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:19:01.280+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:01.279+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:19:01.295+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:19:01.308+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:01.308+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:19:01.313+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:01.313+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:19:01.323+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-12-02T13:19:49.900+0700] {processor.py:157} INFO - Started process (PID=81387) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:19:49.907+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:19:49.908+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:49.908+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:19:49.923+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:19:49.938+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:49.938+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:19:49.944+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:19:49.944+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:19:49.954+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2023-12-02T13:20:25.656+0700] {processor.py:157} INFO - Started process (PID=81611) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:20:25.663+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:20:25.665+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:25.664+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:20:25.677+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:20:25.691+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:25.691+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:20:25.697+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:25.696+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:20:25.707+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-12-02T13:20:59.871+0700] {processor.py:157} INFO - Started process (PID=81754) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:20:59.878+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:20:59.879+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:59.878+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:20:59.887+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:20:59.909+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:59.908+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:20:59.918+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:20:59.918+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:20:59.933+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.065 seconds
+[2023-12-02T13:21:33.033+0700] {processor.py:157} INFO - Started process (PID=81940) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:21:33.040+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:21:33.041+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:21:33.041+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:21:33.049+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:21:33.072+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:21:33.072+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:21:33.083+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:21:33.082+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:21:33.100+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2023-12-02T13:22:06.808+0700] {processor.py:157} INFO - Started process (PID=82219) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:22:06.815+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:22:06.816+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:06.816+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:22:06.830+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:22:06.850+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:06.850+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:22:06.857+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:06.857+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:22:06.869+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.063 seconds
+[2023-12-02T13:22:52.920+0700] {processor.py:157} INFO - Started process (PID=82569) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:22:52.921+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:22:52.921+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:52.921+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:22:52.932+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:22:52.948+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:52.948+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:22:52.954+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:22:52.954+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:22:52.967+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.049 seconds
+[2023-12-02T13:23:34.591+0700] {processor.py:157} INFO - Started process (PID=82802) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:23:34.598+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:23:34.599+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:23:34.599+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:23:34.613+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:23:34.628+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:23:34.628+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:23:34.636+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:23:34.635+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:23:34.648+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.061 seconds
+[2023-12-02T13:24:15.160+0700] {processor.py:157} INFO - Started process (PID=82970) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:24:15.167+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:24:15.168+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:24:15.168+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:24:15.177+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:24:15.193+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:24:15.193+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:24:15.200+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:24:15.200+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:24:15.212+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2023-12-02T13:25:02.179+0700] {processor.py:157} INFO - Started process (PID=83315) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:25:02.186+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:25:02.187+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:02.187+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:25:02.201+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:25:02.216+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:02.216+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:25:02.223+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:02.223+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:25:02.235+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.059 seconds
+[2023-12-02T13:25:49.676+0700] {processor.py:157} INFO - Started process (PID=83520) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:25:49.683+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:25:49.684+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:49.684+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:25:49.694+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:25:49.717+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:49.717+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:25:49.727+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:25:49.727+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:25:49.746+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.073 seconds
+[2023-12-02T13:26:24.152+0700] {processor.py:157} INFO - Started process (PID=83675) to work on /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:26:24.160+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-12-02T13:26:24.160+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:26:24.160+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:26:24.170+0700] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-12-02T13:26:24.192+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:26:24.192+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-02T13:26:24.203+0700] {logging_mixin.py:154} INFO - [2023-12-02T13:26:24.203+0700] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-12-02T13:26:24.222+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.072 seconds

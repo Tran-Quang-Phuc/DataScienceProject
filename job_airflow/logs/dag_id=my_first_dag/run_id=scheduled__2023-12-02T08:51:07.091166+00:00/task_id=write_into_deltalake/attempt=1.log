@@ -1,0 +1,28 @@
+[2023-12-02T16:21:36.907+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_first_dag.write_into_deltalake scheduled__2023-12-02T08:51:07.091166+00:00 [queued]>
+[2023-12-02T16:21:36.912+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_first_dag.write_into_deltalake scheduled__2023-12-02T08:51:07.091166+00:00 [queued]>
+[2023-12-02T16:21:36.913+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2023-12-02T16:21:36.922+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): write_into_deltalake> on 2023-12-02 08:51:07.091166+00:00
+[2023-12-02T16:21:36.925+0700] {standard_task_runner.py:57} INFO - Started process 113905 to run task
+[2023-12-02T16:21:36.928+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'my_first_dag', 'write_into_deltalake', 'scheduled__2023-12-02T08:51:07.091166+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp3ijqm_he']
+[2023-12-02T16:21:36.929+0700] {standard_task_runner.py:85} INFO - Job 4: Subtask write_into_deltalake
+[2023-12-02T16:21:36.961+0700] {task_command.py:416} INFO - Running <TaskInstance: my_first_dag.write_into_deltalake scheduled__2023-12-02T08:51:07.091166+00:00 [running]> on host phuc-ASUS
+[2023-12-02T16:21:37.008+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='MY_NAME' AIRFLOW_CTX_DAG_ID='my_first_dag' AIRFLOW_CTX_TASK_ID='write_into_deltalake' AIRFLOW_CTX_EXECUTION_DATE='2023-12-02T08:51:07.091166+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-02T08:51:07.091166+00:00'
+[2023-12-02T16:21:42.940+0700] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/job_transformation/test_spark.py", line 13, in write_to_delta_table
+    quote = spark.read.format("json").load("/home/phuc/Practice/DataScience/DSProject/data/quotes/quotes_2023-12-02T02-55-28+00-00.json")
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/pyspark/sql/readwriter.py", line 307, in load
+    return self._df(self._jreader.load(path))
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/pyspark/errors/exceptions/captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/home/phuc/Practice/DataScience/DSProject/data/quotes/quotes_2023-12-02T02-55-28+00-00.json.
+[2023-12-02T16:21:42.956+0700] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=my_first_dag, task_id=write_into_deltalake, execution_date=20231202T085107, start_date=20231202T092136, end_date=20231202T092142
+[2023-12-02T16:21:42.966+0700] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task write_into_deltalake ([PATH_NOT_FOUND] Path does not exist: file:/home/phuc/Practice/DataScience/DSProject/data/quotes/quotes_2023-12-02T02-55-28+00-00.json.; 113905)
+[2023-12-02T16:21:42.983+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-02T16:21:42.994+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
