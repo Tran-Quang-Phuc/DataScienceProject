@@ -5,6 +5,9 @@ class CareerlinkSpider(scrapy.Spider):
     name = "careerlink"
     
     api_url='https://www.careerlink.vn/vieclam/list?page={}'
+    custom_settings = {
+        "CLOSESPIDER_PAGECOUNT": 5000
+    }
     def start_requests(self):
         pages = []
         for i in range(1,438):
@@ -44,13 +47,16 @@ class CareerlinkSpider(scrapy.Spider):
     
         # job_item['company_link'] = job.css('h4 a::attr(href)').get(default='not-found')
         locationText = response.css('#jd-col div.job-overview.mt-2 div.d-flex.align-items-start.mb-2 a::text').getall()
-        job_item['company_location']=', '.join([location.strip().replace('\n', ' ') for location in locationText if location.strip()])
+        job_item['job_address']=', '.join([location.strip().replace('\n', ' ') for location in locationText if location.strip()])
 
-        job_item['Seniority level'] = response.css('#jd-col > div > div.card.border-0.font-nunitosans.px-4 > div.job-detail-header.mt-3 > div.job-overview.mt-2 > div:nth-child(3) > span::text').get(default = 'not-found').strip()
+        job_item['job_experience_requied'] = response.css('#jd-col > div > div.card.border-0.font-nunitosans.px-4 > div.job-detail-header.mt-3 > div.job-overview.mt-2 > div:nth-child(3) > span::text').get(default = 'not-found').strip()
 
-        job_item['Employment type'] = response.css('#section-job-summary > div.row.job-summary.d-flex > div.col-6.pr-1.pl-3.pr-md-2 > div > div > div:nth-child(1) > div > div.font-weight-bolder::text').get(default = 'not-found').strip()
+        job_item['employment_type'] = response.css('#section-job-summary > div.row.job-summary.d-flex > div.col-6.pr-1.pl-3.pr-md-2 > div > div > div:nth-child(1) > div > div.font-weight-bolder::text').get(default = 'not-found').strip()
 
-        job_item['Job function'] = response.css('#section-job-summary > div.row.job-summary.d-flex > div.col-6.pr-1.pl-3.pr-md-2 > div > div > div:nth-child(2) > div > div.font-weight-bolder::text').get(default = 'not-found').strip()
+        job_item['job_function'] = response.css('#section-job-summary > div.row.job-summary.d-flex > div.col-6.pr-1.pl-3.pr-md-2 > div > div > div:nth-child(2) > div > div.font-weight-bolder::text').get(default = 'not-found').strip()
+
+        job_item['education_level'] = response.css('#section-job-summary > div.row.job-summary.d-flex > div.col-6.pr-1.pl-3.pr-md-2 > div > div > div:nth-child(3) > div > div.font-weight-bolder::text').get(default = 'not-found').strip()
+
 
         job_item['gender'] = response.css('#section-job-summary > div.row.job-summary.d-flex > div.col-6.pl-1.pr-3.pl-md-2 > div > div > div.d-flex.align-items-baseline.label.mb-3 > div > div.font-weight-bolder::text').get(default = 'not-found').strip()
 
