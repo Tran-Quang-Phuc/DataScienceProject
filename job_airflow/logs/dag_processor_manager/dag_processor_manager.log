@@ -5425,3 +5425,13 @@ File Path                                                                    PID
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:28:06
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:28:35
 ================================================================================
+[2023-12-17T10:29:06.033+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:28:47
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:28:37
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:29:06
+================================================================================
