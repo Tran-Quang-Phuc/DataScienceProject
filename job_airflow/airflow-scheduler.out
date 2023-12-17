@@ -645,3 +645,5 @@ Changing /home/phuc/Practice/DataScience/DSProject/job_airflow/logs/dag_id=test_
 [[34m2023-12-17T10:06:49.733+0700[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2023-12-17T10:11:49.757+0700[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2023-12-17T10:16:49.788+0700[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2023-12-17T10:21:49.815+0700[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2023-12-17T10:26:49.847+0700[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m

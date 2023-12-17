@@ -1529,3 +1529,94 @@ SyntaxError: f-string: expecting '}'
 [2023-12-17T10:21:03.258+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:03.257+0700] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-17T10:21:03.267+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:03.267+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
 [2023-12-17T10:21:03.278+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.057 seconds
+[2023-12-17T10:21:33.388+0700] {processor.py:157} INFO - Started process (PID=370946) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:21:33.395+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:21:33.397+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:33.396+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:21:33.408+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:21:33.421+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:33.421+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:21:33.429+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:33.429+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:21:33.439+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.056 seconds
+[2023-12-17T10:22:03.577+0700] {processor.py:157} INFO - Started process (PID=371258) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:22:03.584+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:22:03.586+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:03.585+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:22:03.592+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:22:03.604+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:03.604+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:22:03.612+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:03.612+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:22:03.623+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.047 seconds
+[2023-12-17T10:22:33.762+0700] {processor.py:157} INFO - Started process (PID=371466) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:22:33.769+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:22:33.770+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:33.770+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:22:33.777+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:22:33.790+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:33.790+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:22:33.801+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:33.800+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:22:33.810+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.050 seconds
+[2023-12-17T10:23:03.938+0700] {processor.py:157} INFO - Started process (PID=371615) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:23:03.945+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:23:03.946+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:03.945+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:23:03.956+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:23:03.970+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:03.970+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:23:03.978+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:03.978+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:23:03.988+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.052 seconds
+[2023-12-17T10:23:34.108+0700] {processor.py:157} INFO - Started process (PID=371801) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:23:34.115+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:23:34.115+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:34.115+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:23:34.120+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:23:34.133+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:34.133+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:23:34.142+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:34.142+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:23:34.152+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.046 seconds
+[2023-12-17T10:24:04.263+0700] {processor.py:157} INFO - Started process (PID=372007) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:24:04.263+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:24:04.264+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:04.264+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:24:04.268+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:24:04.282+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:04.282+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:24:04.292+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:04.292+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:24:04.303+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.042 seconds
+[2023-12-17T10:24:34.436+0700] {processor.py:157} INFO - Started process (PID=372143) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:24:34.443+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:24:34.444+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:34.444+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:24:34.455+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:24:34.468+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:34.468+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:24:34.477+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:34.476+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:24:34.486+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.054 seconds
+[2023-12-17T10:25:04.621+0700] {processor.py:157} INFO - Started process (PID=372326) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:25:04.622+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:25:04.622+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:04.622+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:25:04.627+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:25:04.639+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:04.639+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:25:04.649+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:04.648+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:25:04.660+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.041 seconds
+[2023-12-17T10:25:34.812+0700] {processor.py:157} INFO - Started process (PID=372457) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:25:34.819+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:25:34.820+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:34.820+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:25:34.831+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:25:34.844+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:34.844+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:25:34.853+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:34.852+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:25:34.862+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.052 seconds
+[2023-12-17T10:26:04.928+0700] {processor.py:157} INFO - Started process (PID=372559) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:26:04.929+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:26:04.930+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:04.929+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:26:04.934+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:26:04.945+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:04.945+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:26:04.953+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:04.953+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:26:04.963+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.037 seconds
+[2023-12-17T10:26:35.081+0700] {processor.py:157} INFO - Started process (PID=372788) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:26:35.088+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:26:35.089+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:35.089+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:26:35.100+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:26:35.114+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:35.114+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:26:35.123+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:35.123+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:26:35.135+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.058 seconds
+[2023-12-17T10:27:05.252+0700] {processor.py:157} INFO - Started process (PID=372999) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:27:05.253+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:27:05.254+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:05.254+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:27:05.263+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:27:05.275+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:05.275+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:27:05.284+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:05.283+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:27:05.293+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.045 seconds
+[2023-12-17T10:27:35.419+0700] {processor.py:157} INFO - Started process (PID=373145) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:27:35.426+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py for tasks to queue
+[2023-12-17T10:27:35.427+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:35.427+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:27:35.439+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py
+[2023-12-17T10:27:35.453+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:35.453+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:27:35.461+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:35.461+0700] {dag.py:3722} INFO - Setting next_dagrun for test_1 to 2023-12-17T02:33:21.397961+00:00, run_after=2023-12-17T22:33:21.397961+00:00
+[2023-12-17T10:27:35.470+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py took 0.054 seconds

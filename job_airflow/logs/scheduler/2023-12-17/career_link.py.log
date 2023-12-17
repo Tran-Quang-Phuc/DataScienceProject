@@ -1735,3 +1735,101 @@
 [2023-12-17T10:20:43.801+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:20:43.801+0700] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-17T10:20:43.810+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:20:43.810+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
 [2023-12-17T10:20:43.820+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.054 seconds
+[2023-12-17T10:21:14.094+0700] {processor.py:157} INFO - Started process (PID=370762) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:21:14.101+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:21:14.103+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:14.102+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:21:14.114+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:21:14.127+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:14.127+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:21:14.136+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:14.135+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:21:14.145+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.054 seconds
+[2023-12-17T10:21:44.412+0700] {processor.py:157} INFO - Started process (PID=371117) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:21:44.419+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:21:44.420+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:44.419+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:21:44.424+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:21:44.436+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:44.436+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:21:44.445+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:21:44.445+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:21:44.457+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.046 seconds
+[2023-12-17T10:22:14.747+0700] {processor.py:157} INFO - Started process (PID=371341) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:22:14.755+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:22:14.756+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:14.755+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:22:14.765+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:22:14.778+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:14.778+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:22:14.786+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:14.786+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:22:14.796+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.054 seconds
+[2023-12-17T10:22:45.056+0700] {processor.py:157} INFO - Started process (PID=371545) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:22:45.062+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:22:45.063+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:45.062+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:22:45.067+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:22:45.078+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:45.078+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:22:45.087+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:22:45.087+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:22:45.097+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.043 seconds
+[2023-12-17T10:23:15.255+0700] {processor.py:157} INFO - Started process (PID=371673) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:23:15.261+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:23:15.263+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:15.262+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:23:15.273+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:23:15.287+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:15.287+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:23:15.296+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:15.296+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:23:15.306+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.053 seconds
+[2023-12-17T10:23:45.455+0700] {processor.py:157} INFO - Started process (PID=371932) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:23:45.455+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:23:45.456+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:45.455+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:23:45.460+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:23:45.471+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:45.471+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:23:45.479+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:23:45.479+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:23:45.489+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.036 seconds
+[2023-12-17T10:24:15.666+0700] {processor.py:157} INFO - Started process (PID=372042) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:24:15.667+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:24:15.668+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:15.668+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:24:15.676+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:24:15.687+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:15.687+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:24:15.695+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:15.695+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:24:15.705+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.043 seconds
+[2023-12-17T10:24:45.889+0700] {processor.py:157} INFO - Started process (PID=372220) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:24:45.896+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:24:45.897+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:45.897+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:24:45.904+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:24:45.915+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:45.915+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:24:45.923+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:24:45.923+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:24:45.932+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.046 seconds
+[2023-12-17T10:25:16.107+0700] {processor.py:157} INFO - Started process (PID=372376) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:25:16.108+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:25:16.109+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:16.109+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:25:16.118+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:25:16.130+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:16.130+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:25:16.139+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:16.139+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:25:16.150+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.046 seconds
+[2023-12-17T10:25:46.323+0700] {processor.py:157} INFO - Started process (PID=372509) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:25:46.330+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:25:46.331+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:46.330+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:25:46.339+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:25:46.351+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:46.350+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:25:46.359+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:25:46.358+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:25:46.368+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.049 seconds
+[2023-12-17T10:26:16.545+0700] {processor.py:157} INFO - Started process (PID=372612) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:26:16.546+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:26:16.546+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:16.546+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:26:16.550+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:26:16.564+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:16.564+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:26:16.575+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:16.575+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:26:16.588+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.046 seconds
+[2023-12-17T10:26:46.752+0700] {processor.py:157} INFO - Started process (PID=372886) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:26:46.760+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:26:46.761+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:46.761+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:26:46.772+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:26:46.786+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:46.786+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:26:46.794+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:26:46.794+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:26:46.804+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.055 seconds
+[2023-12-17T10:27:16.927+0700] {processor.py:157} INFO - Started process (PID=373088) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:27:16.927+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:27:16.928+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:16.928+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:27:16.932+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:27:16.943+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:16.942+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:27:16.951+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:16.951+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:27:16.960+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.035 seconds
+[2023-12-17T10:27:47.144+0700] {processor.py:157} INFO - Started process (PID=373279) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:27:47.151+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py for tasks to queue
+[2023-12-17T10:27:47.153+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:47.152+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:27:47.163+0700] {processor.py:839} INFO - DAG(s) dict_keys(['career_link_pipepline_test']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py
+[2023-12-17T10:27:47.177+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:47.177+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:27:47.185+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:27:47.185+0700] {dag.py:3722} INFO - Setting next_dagrun for career_link_pipepline_test to 2023-12-17T01:41:54.568691+00:00, run_after=2023-12-17T21:41:54.568691+00:00
+[2023-12-17T10:27:47.194+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py took 0.052 seconds
