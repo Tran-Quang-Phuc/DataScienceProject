@@ -954,3 +954,5 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 2023-12-17 10:02:15,071 INFO - Marking run <DagRun test_1 @ 2023-12-17 03:01:13.587963+00:00: manual__2023-12-17T03:01:13.587963+00:00, state:running, queued_at: 2023-12-17 03:01:13.594697+00:00. externally triggered: True> successful
 2023-12-17 10:02:15,071 INFO - DagRun Finished: dag_id=test_1, execution_date=2023-12-17 03:01:13.587963+00:00, run_id=manual__2023-12-17T03:01:13.587963+00:00, run_start_date=2023-12-17 03:01:14.060180+00:00, run_end_date=2023-12-17 03:02:15.071894+00:00, run_duration=61.011714, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-12-16 07:01:13.587963+00:00, data_interval_end=2023-12-17 03:01:13.587963+00:00, dag_hash=6cbc0fa2fc22135dbb147534e184480a
 2023-12-17 10:06:49,733 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 10:11:49,757 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 10:16:49,788 INFO - Adopting or resetting orphaned tasks for active dag runs
