@@ -1368,3 +1368,10 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
 [2023-12-17T10:17:01.873+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:17:01.873+0700] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-17T10:17:01.881+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:17:01.881+0700] {dag.py:3722} INFO - Setting next_dagrun for sjvlksdnv to 2023-12-17T01:55:12.291602+00:00, run_after=2023-12-17T21:55:12.291602+00:00
 [2023-12-17T10:17:01.891+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py took 0.036 seconds
+[2023-12-17T10:17:32.021+0700] {processor.py:157} INFO - Started process (PID=368138) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:17:32.028+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py for tasks to queue
+[2023-12-17T10:17:32.029+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:17:32.028+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:17:32.040+0700] {processor.py:839} INFO - DAG(s) dict_keys(['sjvlksdnv']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:17:32.054+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:17:32.053+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:17:32.062+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:17:32.061+0700] {dag.py:3722} INFO - Setting next_dagrun for sjvlksdnv to 2023-12-17T01:55:12.291602+00:00, run_after=2023-12-17T21:55:12.291602+00:00
+[2023-12-17T10:17:32.071+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py took 0.053 seconds
