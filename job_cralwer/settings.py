@@ -14,14 +14,14 @@ NEWSPIDER_MODULE = "job_cralwer.spiders"
 
 
 FEEDS = {
-    '/home/phuc/Practice/DataScience/DSProject/data/raw/%(name)s/%(name)s_%(time)s.json': {
-        'format': 'json'
+    '/home/phuc/Practice/DataScience/DSProject/data/raw/%(name)s/%(time)s.csv': {
+        'format': 'csv'
     }
 }
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "job_cralwer (+http://www.yourdomain.com)"
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -75,7 +75,6 @@ ROBOTSTXT_OBEY = True
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
-#AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5
 # The maximum download delay to be set in case of high latencies
@@ -84,7 +83,6 @@ ROBOTSTXT_OBEY = True
 # each remote server
 #AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
-#AUTOTHROTTLE_DEBUG = False
 
 # Enable and configure HTTP caching (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
