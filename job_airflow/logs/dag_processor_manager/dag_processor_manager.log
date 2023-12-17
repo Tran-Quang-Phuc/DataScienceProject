@@ -5455,3 +5455,5 @@ File Path                                                                    PID
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:29:37
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:30:06
 ================================================================================
+[2023-12-17T10:30:12.971+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T10:30:12.972+0700] {manager.py:758} INFO - There are 3 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
