@@ -10,6 +10,8 @@ from pyspark.sql import DataFrame
     ])
 )
 def get_min_max_yoe(job_experience_required: str):
+    if job_experience_required is None:
+        return {"min": None, "max": None}
     if "năm kinh nghiệm" in job_experience_required:
         if "-" in job_experience_required:
             min_yoe, max_yoe = int(job_experience_required.split(" - ")[0]), int(job_experience_required.split(" - ")[1].split(" ")[0])

@@ -17,3 +17,7 @@ Traceback (most recent call last):
   File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/utils/cli.py", line 245, in get_dag
     raise AirflowException(
 airflow.exceptions.AirflowException: Dag 'careerlink_pipeline_1' could not be found; either it does not exist or it failed to parse.
+[2023-12-17 12:21:33 +0700] [324559] [INFO] Handling signal: term
+[2023-12-17 12:21:33 +0700] [324560] [INFO] Worker exiting (pid: 324560)
+[2023-12-17 12:21:33 +0700] [324562] [INFO] Worker exiting (pid: 324562)
+[2023-12-17 12:21:33 +0700] [324559] [INFO] Shutting down: Master

@@ -958,3 +958,277 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed
 2023-12-17 10:16:49,788 INFO - Adopting or resetting orphaned tasks for active dag runs
 2023-12-17 10:21:49,815 INFO - Adopting or resetting orphaned tasks for active dag runs
 2023-12-17 10:26:49,847 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 10:31:49,891 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 10:34:04,001 INFO - Setting next_dagrun for careerlink_pipeline to 2023-12-17T03:33:42.740911+00:00, run_after=2023-12-17T23:33:42.740911+00:00
+2023-12-17 10:34:04,036 INFO - 2 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.crawl_careerlink scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.crawl_careerlink manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:04,037 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:34:04,037 INFO - DAG careerlink_pipeline has 1/16 running and queued tasks
+2023-12-17 10:34:04,037 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.crawl_careerlink scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.crawl_careerlink manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:04,039 WARNING - cannot record scheduled_duration for task crawl_careerlink because previous state change time has not been saved
+2023-12-17 10:34:04,039 WARNING - cannot record scheduled_duration for task crawl_careerlink because previous state change time has not been saved
+2023-12-17 10:34:04,039 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='crawl_careerlink', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2023-12-17 10:34:04,040 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'crawl_careerlink', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:04,040 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='crawl_careerlink', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2023-12-17 10:34:04,040 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'crawl_careerlink', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:04,042 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'crawl_careerlink', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:09,999 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'crawl_careerlink', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:15,394 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='crawl_careerlink', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1)
+2023-12-17 10:34:15,394 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='crawl_careerlink', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1)
+2023-12-17 10:34:15,397 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=crawl_careerlink, run_id=manual__2023-12-17T03:34:03.627009+00:00, map_index=-1, run_start_date=2023-12-17 03:34:10.636550+00:00, run_end_date=2023-12-17 03:34:15.161078+00:00, run_duration=4.524528, state=success, executor_state=success, try_number=1, max_tries=3, job_id=46, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2023-12-17 03:34:04.038030+00:00, queued_by_job_id=2, pid=376618
+2023-12-17 10:34:15,397 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=crawl_careerlink, run_id=scheduled__2023-12-16T07:33:42.740911+00:00, map_index=-1, run_start_date=2023-12-17 03:34:04.748457+00:00, run_end_date=2023-12-17 03:34:09.771676+00:00, run_duration=5.023219, state=success, executor_state=success, try_number=1, max_tries=3, job_id=45, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2023-12-17 03:34:04.038030+00:00, queued_by_job_id=2, pid=376568
+2023-12-17 10:34:15,551 INFO - 2 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:15,552 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:34:15,552 INFO - DAG careerlink_pipeline has 1/16 running and queued tasks
+2023-12-17 10:34:15,552 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:15,553 WARNING - cannot record scheduled_duration for task check_daily_file_exists because previous state change time has not been saved
+2023-12-17 10:34:15,553 WARNING - cannot record scheduled_duration for task check_daily_file_exists because previous state change time has not been saved
+2023-12-17 10:34:15,553 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-12-17 10:34:15,553 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:15,553 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-12-17 10:34:15,553 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:15,555 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:16,507 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:17,466 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1)
+2023-12-17 10:34:17,466 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1)
+2023-12-17 10:34:17,469 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=check_daily_file_exists, run_id=manual__2023-12-17T03:34:03.627009+00:00, map_index=-1, run_start_date=2023-12-17 03:34:17.147778+00:00, run_end_date=2023-12-17 03:34:17.219461+00:00, run_duration=0.071683, state=success, executor_state=success, try_number=1, max_tries=3, job_id=48, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2023-12-17 03:34:15.552610+00:00, queued_by_job_id=2, pid=376674
+2023-12-17 10:34:17,469 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=check_daily_file_exists, run_id=scheduled__2023-12-16T07:33:42.740911+00:00, map_index=-1, run_start_date=2023-12-17 03:34:16.204937+00:00, run_end_date=2023-12-17 03:34:16.279122+00:00, run_duration=0.074185, state=success, executor_state=success, try_number=1, max_tries=3, job_id=47, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2023-12-17 03:34:15.552610+00:00, queued_by_job_id=2, pid=376671
+2023-12-17 10:34:17,511 INFO - 2 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:17,511 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:34:17,511 INFO - DAG careerlink_pipeline has 1/16 running and queued tasks
+2023-12-17 10:34:17,511 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:17,512 WARNING - cannot record scheduled_duration for task clean_data_and_ingest because previous state change time has not been saved
+2023-12-17 10:34:17,512 WARNING - cannot record scheduled_duration for task clean_data_and_ingest because previous state change time has not been saved
+2023-12-17 10:34:17,512 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-12-17 10:34:17,512 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:17,512 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-12-17 10:34:17,512 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:17,514 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:28,855 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:40,327 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1)
+2023-12-17 10:34:40,327 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1)
+2023-12-17 10:34:40,330 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=clean_data_and_ingest, run_id=manual__2023-12-17T03:34:03.627009+00:00, map_index=-1, run_start_date=2023-12-17 03:34:29.533021+00:00, run_end_date=2023-12-17 03:34:40.090440+00:00, run_duration=10.557419, state=success, executor_state=success, try_number=1, max_tries=3, job_id=50, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2023-12-17 03:34:17.511674+00:00, queued_by_job_id=2, pid=377027
+2023-12-17 10:34:40,331 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=clean_data_and_ingest, run_id=scheduled__2023-12-16T07:33:42.740911+00:00, map_index=-1, run_start_date=2023-12-17 03:34:18.166380+00:00, run_end_date=2023-12-17 03:34:28.628439+00:00, run_duration=10.462059, state=success, executor_state=success, try_number=1, max_tries=3, job_id=49, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2023-12-17 03:34:17.511674+00:00, queued_by_job_id=2, pid=376676
+2023-12-17 10:34:40,472 INFO - 2 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:40,473 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:34:40,473 INFO - DAG careerlink_pipeline has 1/16 running and queued tasks
+2023-12-17 10:34:40,473 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse scheduled__2023-12-16T07:33:42.740911+00:00 [scheduled]>
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:34:03.627009+00:00 [scheduled]>
+2023-12-17 10:34:40,474 WARNING - cannot record scheduled_duration for task upsert_to_warehouse because previous state change time has not been saved
+2023-12-17 10:34:40,474 WARNING - cannot record scheduled_duration for task upsert_to_warehouse because previous state change time has not been saved
+2023-12-17 10:34:40,474 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 10:34:40,474 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:40,474 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 10:34:40,474 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:40,476 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:34:52,988 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:34:03.627009+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:35:05,597 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='scheduled__2023-12-16T07:33:42.740911+00:00', try_number=1, map_index=-1)
+2023-12-17 10:35:05,597 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:34:03.627009+00:00', try_number=1, map_index=-1)
+2023-12-17 10:35:05,600 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:34:03.627009+00:00, map_index=-1, run_start_date=2023-12-17 03:34:53.618541+00:00, run_end_date=2023-12-17 03:35:05.388661+00:00, run_duration=11.77012, state=success, executor_state=success, try_number=1, max_tries=3, job_id=52, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 03:34:40.473590+00:00, queued_by_job_id=2, pid=377625
+2023-12-17 10:35:05,600 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=scheduled__2023-12-16T07:33:42.740911+00:00, map_index=-1, run_start_date=2023-12-17 03:34:41.128463+00:00, run_end_date=2023-12-17 03:34:52.754364+00:00, run_duration=11.625901, state=success, executor_state=success, try_number=1, max_tries=3, job_id=51, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 03:34:40.473590+00:00, queued_by_job_id=2, pid=377362
+2023-12-17 10:35:05,742 INFO - Marking run <DagRun careerlink_pipeline @ 2023-12-16 07:33:42.740911+00:00: scheduled__2023-12-16T07:33:42.740911+00:00, state:running, queued_at: 2023-12-17 03:34:03.998474+00:00. externally triggered: False> successful
+2023-12-17 10:35:05,742 INFO - DagRun Finished: dag_id=careerlink_pipeline, execution_date=2023-12-16 07:33:42.740911+00:00, run_id=scheduled__2023-12-16T07:33:42.740911+00:00, run_start_date=2023-12-17 03:34:04.008938+00:00, run_end_date=2023-12-17 03:35:05.742438+00:00, run_duration=61.7335, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2023-12-16 07:33:42.740911+00:00, data_interval_end=2023-12-17 03:33:42.740911+00:00, dag_hash=5db331d2afe0415a7e85865f0d275245
+2023-12-17 10:35:05,743 INFO - Setting next_dagrun for careerlink_pipeline to 2023-12-17T03:33:42.740911+00:00, run_after=2023-12-17T23:33:42.740911+00:00
+2023-12-17 10:35:05,745 INFO - Marking run <DagRun careerlink_pipeline @ 2023-12-17 03:34:03.627009+00:00: manual__2023-12-17T03:34:03.627009+00:00, state:running, queued_at: 2023-12-17 03:34:03.634763+00:00. externally triggered: True> successful
+2023-12-17 10:35:05,745 INFO - DagRun Finished: dag_id=careerlink_pipeline, execution_date=2023-12-17 03:34:03.627009+00:00, run_id=manual__2023-12-17T03:34:03.627009+00:00, run_start_date=2023-12-17 03:34:04.009120+00:00, run_end_date=2023-12-17 03:35:05.745822+00:00, run_duration=61.736702, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-12-16 07:34:03.627009+00:00, data_interval_end=2023-12-17 03:34:03.627009+00:00, dag_hash=5db331d2afe0415a7e85865f0d275245
+2023-12-17 10:36:10,645 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.crawl_careerlink manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:36:10,646 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:36:10,646 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.crawl_careerlink manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:36:10,646 WARNING - cannot record scheduled_duration for task crawl_careerlink because previous state change time has not been saved
+2023-12-17 10:36:10,647 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='crawl_careerlink', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2023-12-17 10:36:10,647 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'crawl_careerlink', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:36:10,648 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'crawl_careerlink', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:55:43,856 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='crawl_careerlink', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1)
+2023-12-17 10:55:43,864 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=crawl_careerlink, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 03:36:11.339227+00:00, run_end_date=2023-12-17 03:55:43.657999+00:00, run_duration=1172.318772, state=success, executor_state=success, try_number=1, max_tries=3, job_id=53, pool=default_pool, queue=default, priority_weight=4, operator=BashOperator, queued_dttm=2023-12-17 03:36:10.646411+00:00, queued_by_job_id=2, pid=378223
+2023-12-17 10:55:43,875 ERROR - DagFileProcessorManager (PID=348798) last sent a heartbeat 1173.26 seconds ago! Restarting it
+2023-12-17 10:55:43,881 INFO - Sending Signals.SIGTERM to group 348798. PIDs of all processes in the group: [348798]
+2023-12-17 10:55:43,881 INFO - Sending the signal Signals.SIGTERM to group 348798
+2023-12-17 10:55:43,973 INFO - Process psutil.Process(pid=348798, status='terminated', exitcode=0, started='09:35:08') (348798) terminated with exit code 0
+2023-12-17 10:55:43,976 INFO - Launched DagFileProcessorManager with pid: 388858
+2023-12-17 10:55:43,979 INFO - Configured default timezone Timezone('UTC')
+2023-12-17 10:55:43,992 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 10:55:43,993 INFO - Marked 1 SchedulerJob instances as failed
+2023-12-17 10:55:44,139 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:55:44,139 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:55:44,139 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:55:44,140 WARNING - cannot record scheduled_duration for task check_daily_file_exists because previous state change time has not been saved
+2023-12-17 10:55:44,140 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2023-12-17 10:55:44,140 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:55:44,142 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:55:45,148 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1)
+2023-12-17 10:55:45,151 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=check_daily_file_exists, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 03:55:44.844119+00:00, run_end_date=2023-12-17 03:55:44.916784+00:00, run_duration=0.072665, state=success, executor_state=success, try_number=1, max_tries=3, job_id=54, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2023-12-17 03:55:44.139675+00:00, queued_by_job_id=2, pid=388878
+2023-12-17 10:55:45,282 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:55:45,282 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:55:45,282 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:55:45,283 WARNING - cannot record scheduled_duration for task clean_data_and_ingest because previous state change time has not been saved
+2023-12-17 10:55:45,283 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2023-12-17 10:55:45,283 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:55:45,285 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:55:56,394 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1)
+2023-12-17 10:55:56,397 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=clean_data_and_ingest, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 03:55:45.962542+00:00, run_end_date=2023-12-17 03:55:56.217288+00:00, run_duration=10.254746, state=success, executor_state=success, try_number=1, max_tries=3, job_id=55, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2023-12-17 03:55:45.282962+00:00, queued_by_job_id=2, pid=388881
+2023-12-17 10:55:56,445 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:55:56,445 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 10:55:56,445 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 10:55:56,446 WARNING - cannot record scheduled_duration for task upsert_to_warehouse because previous state change time has not been saved
+2023-12-17 10:55:56,446 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 10:55:56,446 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:55:56,448 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 10:56:08,730 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=1, map_index=-1)
+2023-12-17 10:56:08,732 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 03:55:57.036656+00:00, run_end_date=2023-12-17 03:56:08.510809+00:00, run_duration=11.474153, state=success, executor_state=success, try_number=1, max_tries=3, job_id=56, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 03:55:56.445627+00:00, queued_by_job_id=2, pid=389148
+2023-12-17 10:56:08,765 INFO - Marking run <DagRun careerlink_pipeline @ 2023-12-17 03:36:09.794287+00:00: manual__2023-12-17T03:36:09.794287+00:00, state:running, queued_at: 2023-12-17 03:36:09.798783+00:00. externally triggered: True> successful
+2023-12-17 10:56:08,765 INFO - DagRun Finished: dag_id=careerlink_pipeline, execution_date=2023-12-17 03:36:09.794287+00:00, run_id=manual__2023-12-17T03:36:09.794287+00:00, run_start_date=2023-12-17 03:36:10.625921+00:00, run_end_date=2023-12-17 03:56:08.765547+00:00, run_duration=1198.139626, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-12-16 07:36:09.794287+00:00, data_interval_end=2023-12-17 03:36:09.794287+00:00, dag_hash=5db331d2afe0415a7e85865f0d275245
+2023-12-17 11:00:44,040 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:05:44,073 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:10:44,109 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:15:44,139 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:20:44,180 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:25:44,231 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:28:58,774 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:28:58,774 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:28:58,774 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.check_daily_file_exists manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:28:58,775 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=2, map_index=-1) to executor with priority 3 and queue default
+2023-12-17 11:28:58,775 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:28:58,777 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:28:59,789 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='check_daily_file_exists', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=2, map_index=-1)
+2023-12-17 11:28:59,792 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=check_daily_file_exists, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:28:59.455777+00:00, run_end_date=2023-12-17 04:28:59.528969+00:00, run_duration=0.073192, state=success, executor_state=success, try_number=2, max_tries=4, job_id=57, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2023-12-17 04:28:58.775132+00:00, queued_by_job_id=2, pid=400504
+2023-12-17 11:28:59,940 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:28:59,941 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:28:59,941 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:28:59,942 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default
+2023-12-17 11:28:59,942 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:28:59,943 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:29:18,303 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='clean_data_and_ingest', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=2, map_index=-1)
+2023-12-17 11:29:18,305 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=clean_data_and_ingest, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:29:00.626025+00:00, run_end_date=2023-12-17 04:29:18.050383+00:00, run_duration=17.424358, state=success, executor_state=success, try_number=2, max_tries=4, job_id=58, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2023-12-17 04:28:59.941534+00:00, queued_by_job_id=2, pid=400522
+2023-12-17 11:29:18,460 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:29:18,460 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:29:18,460 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:29:18,461 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=2, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:29:18,461 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:29:18,463 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:29:31,857 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=2, map_index=-1)
+2023-12-17 11:29:31,860 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:29:19.111982+00:00, run_end_date=2023-12-17 04:29:31.642704+00:00, run_duration=12.530722, state=up_for_retry, executor_state=success, try_number=2, max_tries=4, job_id=59, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:29:18.461108+00:00, queued_by_job_id=2, pid=401175
+2023-12-17 11:30:44,291 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:32:32,008 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:32:32,008 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:32:32,008 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:32:32,009 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=3, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:32:32,009 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:32:32,012 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:32:43,889 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=3, map_index=-1)
+2023-12-17 11:32:43,892 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:32:32.593047+00:00, run_end_date=2023-12-17 04:32:43.721406+00:00, run_duration=11.128359, state=up_for_retry, executor_state=success, try_number=3, max_tries=4, job_id=60, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:32:32.009054+00:00, queued_by_job_id=2, pid=403216
+2023-12-17 11:33:05,063 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:33:05,064 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:33:05,064 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:33:05,065 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=4, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:33:05,065 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:33:05,067 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:33:24,210 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=4, map_index=-1)
+2023-12-17 11:33:24,213 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:33:05.738187+00:00, run_end_date=2023-12-17 04:33:23.982300+00:00, run_duration=18.244113, state=up_for_retry, executor_state=success, try_number=4, max_tries=6, job_id=61, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:33:05.064495+00:00, queued_by_job_id=2, pid=403731
+2023-12-17 11:35:44,347 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:36:24,288 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:36:24,288 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:36:24,288 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:36:24,289 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=5, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:36:24,289 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:36:24,291 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:36:43,135 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=5, map_index=-1)
+2023-12-17 11:36:43,138 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:36:24.945549+00:00, run_end_date=2023-12-17 04:36:42.916713+00:00, run_duration=17.971164, state=up_for_retry, executor_state=success, try_number=5, max_tries=6, job_id=62, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:36:24.289029+00:00, queued_by_job_id=2, pid=405850
+2023-12-17 11:39:43,211 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:39:43,211 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:39:43,211 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:39:43,212 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=6, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:39:43,212 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:39:43,215 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:40:02,359 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=6, map_index=-1)
+2023-12-17 11:40:02,362 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:39:43.851877+00:00, run_end_date=2023-12-17 04:40:02.152864+00:00, run_duration=18.300987, state=up_for_retry, executor_state=success, try_number=6, max_tries=6, job_id=63, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:39:43.212185+00:00, queued_by_job_id=2, pid=407987
+2023-12-17 11:40:44,400 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:41:25,208 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:41:25,209 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:41:25,209 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:41:25,210 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=7, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:41:25,210 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:41:25,212 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:41:44,175 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=7, map_index=-1)
+2023-12-17 11:41:44,178 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:41:25.878546+00:00, run_end_date=2023-12-17 04:41:43.920095+00:00, run_duration=18.041549, state=up_for_retry, executor_state=success, try_number=7, max_tries=9, job_id=64, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:41:25.209541+00:00, queued_by_job_id=2, pid=409233
+2023-12-17 11:42:56,033 ERROR - Marking run <DagRun careerlink_pipeline @ 2023-12-17 03:36:09.794287+00:00: manual__2023-12-17T03:36:09.794287+00:00, state:running, queued_at: 2023-12-17 04:28:58.219479+00:00. externally triggered: True> failed
+2023-12-17 11:42:56,033 INFO - DagRun Finished: dag_id=careerlink_pipeline, execution_date=2023-12-17 03:36:09.794287+00:00, run_id=manual__2023-12-17T03:36:09.794287+00:00, run_start_date=2023-12-17 04:28:58.755252+00:00, run_end_date=2023-12-17 04:42:56.033300+00:00, run_duration=837.278048, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-12-16 07:36:09.794287+00:00, data_interval_end=2023-12-17 03:36:09.794287+00:00, dag_hash=5db331d2afe0415a7e85865f0d275245
+2023-12-17 11:45:40,933 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:45:40,933 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:45:40,933 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:45:40,934 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=8, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:45:40,934 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:45:40,936 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:46:04,184 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=8, map_index=-1)
+2023-12-17 11:46:04,187 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:45:41.611763+00:00, run_end_date=2023-12-17 04:46:03.947421+00:00, run_duration=22.335658, state=success, executor_state=success, try_number=8, max_tries=10, job_id=65, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:45:40.933780+00:00, queued_by_job_id=2, pid=410823
+2023-12-17 11:46:04,209 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:46:04,359 INFO - Marking run <DagRun careerlink_pipeline @ 2023-12-17 03:36:09.794287+00:00: manual__2023-12-17T03:36:09.794287+00:00, state:running, queued_at: 2023-12-17 04:45:39.897872+00:00. externally triggered: True> successful
+2023-12-17 11:46:04,359 INFO - DagRun Finished: dag_id=careerlink_pipeline, execution_date=2023-12-17 03:36:09.794287+00:00, run_id=manual__2023-12-17T03:36:09.794287+00:00, run_start_date=2023-12-17 04:45:40.906659+00:00, run_end_date=2023-12-17 04:46:04.359306+00:00, run_duration=23.452647, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-12-16 07:36:09.794287+00:00, data_interval_end=2023-12-17 03:36:09.794287+00:00, dag_hash=5db331d2afe0415a7e85865f0d275245
+2023-12-17 11:50:37,172 INFO - 1 tasks up for execution:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:50:37,172 INFO - DAG careerlink_pipeline has 0/16 running and queued tasks
+2023-12-17 11:50:37,172 INFO - Setting the following tasks to queued state:
+	<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [scheduled]>
+2023-12-17 11:50:37,173 INFO - Sending TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=9, map_index=-1) to executor with priority 1 and queue default
+2023-12-17 11:50:37,173 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:50:37,175 INFO - Executing command: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_dags.py']
+2023-12-17 11:51:01,349 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='careerlink_pipeline', task_id='upsert_to_warehouse', run_id='manual__2023-12-17T03:36:09.794287+00:00', try_number=9, map_index=-1)
+2023-12-17 11:51:01,351 INFO - TaskInstance Finished: dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, run_id=manual__2023-12-17T03:36:09.794287+00:00, map_index=-1, run_start_date=2023-12-17 04:50:37.855854+00:00, run_end_date=2023-12-17 04:51:01.148515+00:00, run_duration=23.292661, state=success, executor_state=success, try_number=9, max_tries=11, job_id=66, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-12-17 04:50:37.172739+00:00, queued_by_job_id=2, pid=412435
+2023-12-17 11:51:01,493 INFO - Marking run <DagRun careerlink_pipeline @ 2023-12-17 03:36:09.794287+00:00: manual__2023-12-17T03:36:09.794287+00:00, state:running, queued_at: 2023-12-17 04:50:36.748271+00:00. externally triggered: True> successful
+2023-12-17 11:51:01,493 INFO - DagRun Finished: dag_id=careerlink_pipeline, execution_date=2023-12-17 03:36:09.794287+00:00, run_id=manual__2023-12-17T03:36:09.794287+00:00, run_start_date=2023-12-17 04:50:37.158845+00:00, run_end_date=2023-12-17 04:51:01.493447+00:00, run_duration=24.334602, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-12-16 07:36:09.794287+00:00, data_interval_end=2023-12-17 03:36:09.794287+00:00, dag_hash=5db331d2afe0415a7e85865f0d275245
+2023-12-17 11:51:04,238 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 11:51:04,240 INFO - Marked 1 SchedulerJob instances as failed
+2023-12-17 11:56:04,279 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 12:01:04,313 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 12:06:04,348 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 12:11:04,392 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 12:16:04,439 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 12:21:08,707 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-12-17 12:21:33,106 INFO - Exiting gracefully upon receiving signal 15
+2023-12-17 12:21:33,167 INFO - Exiting gracefully upon receiving signal 15
+2023-12-17 12:21:33,417 INFO - Sending Signals.SIGTERM to group 388858. PIDs of all processes in the group: []
+2023-12-17 12:21:33,417 INFO - Sending the signal Signals.SIGTERM to group 388858
+2023-12-17 12:21:33,418 INFO - Sending the signal Signals.SIGTERM to process 388858 as process group is missing.
+2023-12-17 12:21:33,434 INFO - Sending Signals.SIGTERM to group 388858. PIDs of all processes in the group: []
+2023-12-17 12:21:33,435 INFO - Sending the signal Signals.SIGTERM to group 388858
+2023-12-17 12:21:33,435 INFO - Sending the signal Signals.SIGTERM to process 388858 as process group is missing.
+2023-12-17 12:21:33,436 INFO - Exited execute loop

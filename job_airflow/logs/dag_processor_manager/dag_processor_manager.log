@@ -5477,3 +5477,1644 @@ File Path                                                                    PID
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:30:37
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:31:06
 ================================================================================
+[2023-12-17T10:31:36.896+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:31:18
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:31:07
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:31:36
+================================================================================
+[2023-12-17T10:32:07.064+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:31:48
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.11s           2023-12-17T03:31:38
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:32:07
+================================================================================
+[2023-12-17T10:32:37.227+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:32:19
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:32:08
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:32:37
+================================================================================
+[2023-12-17T10:32:48.227+0700] {manager.py:1137} WARNING - Skipping processing of missing file: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:33:07.289+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           0           1  0.11s           2023-12-17T03:33:06
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:32:49
+================================================================================
+[2023-12-17T10:33:37.342+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           0           1  0.10s           2023-12-17T03:33:27
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:33:20
+================================================================================
+[2023-12-17T10:34:15.533+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:33:50
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:34:15
+================================================================================
+[2023-12-17T10:35:05.732+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:34:40
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:35:05
+================================================================================
+[2023-12-17T10:35:13.849+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T10:35:13.851+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T10:35:36.072+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T03:35:10
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:35:36
+================================================================================
+[2023-12-17T10:36:06.505+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:35:41
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:36:06
+================================================================================
+[2023-12-17T10:55:43.881+0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-12-17T10:55:43.994+0700] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-12-17T10:55:43.995+0700] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-17T10:55:43.995+0700] {manager.py:489} INFO - Checking for new files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags every 300 seconds
+[2023-12-17T10:55:43.995+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T10:55:43.996+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T10:55:44.120+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             0           0
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:55:44
+================================================================================
+[2023-12-17T10:56:14.899+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:55:45
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:56:14
+================================================================================
+[2023-12-17T10:56:45.126+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:56:16
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:56:45
+================================================================================
+[2023-12-17T10:57:15.282+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:56:46
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:57:15
+================================================================================
+[2023-12-17T10:57:45.542+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:57:16
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:57:45
+================================================================================
+[2023-12-17T10:58:15.776+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:57:46
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:58:15
+================================================================================
+[2023-12-17T10:58:46.067+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:58:16
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:58:46
+================================================================================
+[2023-12-17T10:59:16.327+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:58:47
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:59:16
+================================================================================
+[2023-12-17T10:59:46.615+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:59:17
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:59:46
+================================================================================
+[2023-12-17T11:00:16.862+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:59:47
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:00:16
+================================================================================
+[2023-12-17T11:00:44.000+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:00:44.003+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:00:47.105+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:00:17
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:00:47
+================================================================================
+[2023-12-17T11:01:17.368+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:00:48
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:01:17
+================================================================================
+[2023-12-17T11:01:47.627+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:01:18
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:01:47
+================================================================================
+[2023-12-17T11:02:17.855+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:01:48
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:02:17
+================================================================================
+[2023-12-17T11:02:48.062+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:02:18
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:02:48
+================================================================================
+[2023-12-17T11:03:18.310+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:02:49
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:03:18
+================================================================================
+[2023-12-17T11:03:48.587+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:03:19
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:03:48
+================================================================================
+[2023-12-17T11:04:18.823+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:03:49
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:04:18
+================================================================================
+[2023-12-17T11:04:49.124+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:04:19
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:04:49
+================================================================================
+[2023-12-17T11:05:19.345+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:04:50
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:05:19
+================================================================================
+[2023-12-17T11:05:44.045+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:05:44.047+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:05:49.561+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:05:20
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:05:49
+================================================================================
+[2023-12-17T11:06:19.825+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:05:50
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:06:19
+================================================================================
+[2023-12-17T11:06:50.100+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:06:20
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:06:50
+================================================================================
+[2023-12-17T11:07:20.330+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:06:51
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:07:20
+================================================================================
+[2023-12-17T11:07:50.580+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:07:21
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:07:50
+================================================================================
+[2023-12-17T11:08:20.829+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:07:51
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:08:20
+================================================================================
+[2023-12-17T11:08:51.062+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:08:21
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:08:51
+================================================================================
+[2023-12-17T11:09:21.337+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:08:51
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:09:21
+================================================================================
+[2023-12-17T11:09:51.576+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:09:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:09:51
+================================================================================
+[2023-12-17T11:10:21.825+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:09:52
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:10:21
+================================================================================
+[2023-12-17T11:10:44.078+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:10:44.080+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:10:52.102+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:10:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:10:52
+================================================================================
+[2023-12-17T11:11:22.325+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:10:52
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:11:22
+================================================================================
+[2023-12-17T11:11:52.555+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:11:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:11:52
+================================================================================
+[2023-12-17T11:12:22.812+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:11:53
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:12:22
+================================================================================
+[2023-12-17T11:12:53.026+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:12:23
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:12:53
+================================================================================
+[2023-12-17T11:13:23.267+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:12:53
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:13:23
+================================================================================
+[2023-12-17T11:13:53.520+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:13:23
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:13:53
+================================================================================
+[2023-12-17T11:14:23.780+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:13:53
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:14:23
+================================================================================
+[2023-12-17T11:14:54.029+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:14:24
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:14:54
+================================================================================
+[2023-12-17T11:15:24.298+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:14:54
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:15:24
+================================================================================
+[2023-12-17T11:15:44.113+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:15:44.115+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:15:54.541+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:15:24
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:15:54
+================================================================================
+[2023-12-17T11:16:24.792+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:15:54
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:16:24
+================================================================================
+[2023-12-17T11:16:55.040+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:16:24
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:16:55
+================================================================================
+[2023-12-17T11:17:25.241+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:16:56
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:17:25
+================================================================================
+[2023-12-17T11:17:55.437+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:17:26
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:17:55
+================================================================================
+[2023-12-17T11:18:25.626+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:17:56
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:18:25
+================================================================================
+[2023-12-17T11:18:55.846+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:18:26
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:18:55
+================================================================================
+[2023-12-17T11:19:26.065+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:18:56
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:19:26
+================================================================================
+[2023-12-17T11:19:56.282+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:19:27
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:19:56
+================================================================================
+[2023-12-17T11:20:26.490+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:19:57
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:20:26
+================================================================================
+[2023-12-17T11:20:44.147+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:20:44.150+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:20:56.688+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:20:27
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:20:56
+================================================================================
+[2023-12-17T11:21:26.907+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:20:57
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:21:26
+================================================================================
+[2023-12-17T11:21:57.105+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:21:27
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:21:57
+================================================================================
+[2023-12-17T11:22:27.285+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:21:57
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:22:27
+================================================================================
+[2023-12-17T11:22:57.503+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:22:28
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:22:57
+================================================================================
+[2023-12-17T11:23:27.702+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:22:58
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:23:27
+================================================================================
+[2023-12-17T11:23:57.902+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:23:28
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:23:57
+================================================================================
+[2023-12-17T11:24:28.106+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:23:58
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:24:28
+================================================================================
+[2023-12-17T11:24:58.314+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:24:28
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:24:58
+================================================================================
+[2023-12-17T11:25:28.519+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:24:58
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:25:28
+================================================================================
+[2023-12-17T11:25:44.190+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:25:44.194+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:25:58.726+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:25:29
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:25:58
+================================================================================
+[2023-12-17T11:26:28.942+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:25:59
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:26:28
+================================================================================
+[2023-12-17T11:26:59.140+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:26:29
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:26:59
+================================================================================
+[2023-12-17T11:27:29.315+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:26:59
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:27:29
+================================================================================
+[2023-12-17T11:27:59.506+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:27:29
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:27:59
+================================================================================
+[2023-12-17T11:28:29.701+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:27:59
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:28:29
+================================================================================
+[2023-12-17T11:28:59.924+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:28:30
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:28:59
+================================================================================
+[2023-12-17T11:29:31.992+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:29:18
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:29:31
+================================================================================
+[2023-12-17T11:30:02.172+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:29:49
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:30:02
+================================================================================
+[2023-12-17T11:30:32.511+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:30:20
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:30:32
+================================================================================
+[2023-12-17T11:30:44.240+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:30:44.245+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:31:02.897+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:30:51
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:31:02
+================================================================================
+[2023-12-17T11:31:33.299+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:31:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:31:33
+================================================================================
+[2023-12-17T11:32:03.678+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:31:52
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:32:03
+================================================================================
+[2023-12-17T11:32:44.024+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:32:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:32:44
+================================================================================
+[2023-12-17T11:33:24.348+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:32:53
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:33:24
+================================================================================
+[2023-12-17T11:33:54.480+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:33:25
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:33:54
+================================================================================
+[2023-12-17T11:34:24.833+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:33:55
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:34:24
+================================================================================
+[2023-12-17T11:34:55.282+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:34:25
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:34:55
+================================================================================
+[2023-12-17T11:35:25.690+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:34:56
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:35:25
+================================================================================
+[2023-12-17T11:35:44.299+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:35:44.300+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:35:55.963+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:35:26
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:35:55
+================================================================================
+[2023-12-17T11:36:43.264+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:35:57
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:36:43
+================================================================================
+[2023-12-17T11:37:13.439+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:36:44
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:37:13
+================================================================================
+[2023-12-17T11:37:43.802+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:37:14
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:37:43
+================================================================================
+[2023-12-17T11:38:14.193+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:37:44
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:38:14
+================================================================================
+[2023-12-17T11:38:44.583+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:38:15
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:38:44
+================================================================================
+[2023-12-17T11:39:14.815+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:38:45
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:39:14
+================================================================================
+[2023-12-17T11:40:02.498+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:39:15
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:40:02
+================================================================================
+[2023-12-17T11:40:32.613+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:40:03
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:40:32
+================================================================================
+[2023-12-17T11:40:44.356+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:40:44.361+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:41:02.856+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:40:33
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:41:02
+================================================================================
+[2023-12-17T11:41:44.310+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:41:04
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:41:44
+================================================================================
+[2023-12-17T11:42:14.503+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:41:45
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:42:14
+================================================================================
+[2023-12-17T11:42:44.905+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:42:15
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:42:44
+================================================================================
+[2023-12-17T11:43:15.232+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:42:46
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:43:15
+================================================================================
+[2023-12-17T11:43:45.574+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:43:16
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:43:45
+================================================================================
+[2023-12-17T11:44:15.866+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:43:46
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:44:15
+================================================================================
+[2023-12-17T11:44:46.251+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:44:17
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:44:46
+================================================================================
+[2023-12-17T11:45:16.580+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:44:47
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:45:16
+================================================================================
+[2023-12-17T11:46:04.225+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:46:04.228+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:46:04.345+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:45:17
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:46:04
+================================================================================
+[2023-12-17T11:46:34.507+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:46:05
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:46:34
+================================================================================
+[2023-12-17T11:47:04.865+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:46:35
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:47:04
+================================================================================
+[2023-12-17T11:47:35.236+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:47:06
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:47:35
+================================================================================
+[2023-12-17T11:48:05.599+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:47:36
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:48:05
+================================================================================
+[2023-12-17T11:48:35.847+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:48:06
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:48:35
+================================================================================
+[2023-12-17T11:49:05.964+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:48:37
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:49:05
+================================================================================
+[2023-12-17T11:49:36.495+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:49:07
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:49:36
+================================================================================
+[2023-12-17T11:50:06.838+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:49:37
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:50:06
+================================================================================
+[2023-12-17T11:50:37.152+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:50:07
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:50:37
+================================================================================
+[2023-12-17T11:51:04.344+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:51:04.345+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:51:07.528+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:51:01
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:51:07
+================================================================================
+[2023-12-17T11:51:37.895+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:51:31
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:51:37
+================================================================================
+[2023-12-17T11:52:08.242+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:52:02
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:52:08
+================================================================================
+[2023-12-17T11:52:38.597+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:52:32
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:52:38
+================================================================================
+[2023-12-17T11:53:08.960+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:53:02
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:53:08
+================================================================================
+[2023-12-17T11:53:39.276+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:53:32
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:53:39
+================================================================================
+[2023-12-17T11:54:09.525+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:54:03
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:54:09
+================================================================================
+[2023-12-17T11:54:39.770+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.21s           2023-12-17T04:54:33
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:54:39
+================================================================================
+[2023-12-17T11:55:10.144+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:55:03
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:55:10
+================================================================================
+[2023-12-17T11:55:40.526+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:55:34
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:55:40
+================================================================================
+[2023-12-17T11:56:04.348+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:56:04.350+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T11:56:10.804+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:56:04
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:56:10
+================================================================================
+[2023-12-17T11:56:41.080+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:56:34
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:56:41
+================================================================================
+[2023-12-17T11:57:11.456+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:57:05
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:57:11
+================================================================================
+[2023-12-17T11:57:41.833+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:57:35
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:57:41
+================================================================================
+[2023-12-17T11:58:12.205+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T04:58:06
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:58:12
+================================================================================
+[2023-12-17T11:58:42.498+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:58:36
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T04:58:42
+================================================================================
+[2023-12-17T11:59:12.909+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:59:06
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:59:12
+================================================================================
+[2023-12-17T11:59:43.289+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T04:59:37
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T04:59:43
+================================================================================
+[2023-12-17T12:00:13.496+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:00:07
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:00:13
+================================================================================
+[2023-12-17T12:00:43.717+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:00:37
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:00:43
+================================================================================
+[2023-12-17T12:01:04.682+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:01:04.683+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:01:13.925+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:01:07
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:01:13
+================================================================================
+[2023-12-17T12:01:44.138+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:01:38
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:01:44
+================================================================================
+[2023-12-17T12:02:14.341+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:02:08
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:02:14
+================================================================================
+[2023-12-17T12:02:44.564+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:02:39
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:02:44
+================================================================================
+[2023-12-17T12:03:14.775+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:03:09
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:03:14
+================================================================================
+[2023-12-17T12:03:45.005+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:03:39
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:03:45
+================================================================================
+[2023-12-17T12:04:15.223+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:04:10
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:04:15
+================================================================================
+[2023-12-17T12:04:45.433+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:04:40
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:04:45
+================================================================================
+[2023-12-17T12:05:15.645+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:05:11
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:05:15
+================================================================================
+[2023-12-17T12:05:45.811+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:05:41
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:05:45
+================================================================================
+[2023-12-17T12:06:04.893+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:06:04.897+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:06:16.045+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:06:11
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:06:16
+================================================================================
+[2023-12-17T12:06:46.262+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:06:42
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:06:46
+================================================================================
+[2023-12-17T12:07:16.476+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:07:12
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:07:16
+================================================================================
+[2023-12-17T12:07:46.687+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:07:43
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:07:46
+================================================================================
+[2023-12-17T12:08:16.894+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:08:13
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:08:16
+================================================================================
+[2023-12-17T12:08:47.023+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:08:43
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:08:47
+================================================================================
+[2023-12-17T12:09:17.236+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:09:14
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:09:17
+================================================================================
+[2023-12-17T12:09:47.459+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:09:44
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:09:47
+================================================================================
+[2023-12-17T12:10:17.682+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:10:15
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:10:17
+================================================================================
+[2023-12-17T12:10:47.897+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:10:45
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:10:47
+================================================================================
+[2023-12-17T12:11:05.103+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:11:05.106+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:11:18.128+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:11:15
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:11:18
+================================================================================
+[2023-12-17T12:11:48.354+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:11:46
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:11:48
+================================================================================
+[2023-12-17T12:12:18.559+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:12:16
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:12:18
+================================================================================
+[2023-12-17T12:12:48.763+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:12:46
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:12:48
+================================================================================
+[2023-12-17T12:13:18.979+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:13:17
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:13:18
+================================================================================
+[2023-12-17T12:13:49.196+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:13:47
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:13:49
+================================================================================
+[2023-12-17T12:14:19.419+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:14:18
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:14:19
+================================================================================
+[2023-12-17T12:14:49.758+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.21s           2023-12-17T05:14:48
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.20s           2023-12-17T05:14:49
+================================================================================
+[2023-12-17T12:15:19.946+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:15:18
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:15:19
+================================================================================
+[2023-12-17T12:15:50.132+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:15:49
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:15:50
+================================================================================
+[2023-12-17T12:16:05.173+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:16:05.175+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:16:20.337+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:16:19
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:16:20
+================================================================================
+[2023-12-17T12:16:54.628+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:16:50
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:16:51
+================================================================================
+[2023-12-17T12:17:24.699+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:17:20
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:17:21
+================================================================================
+[2023-12-17T12:17:54.728+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:17:50
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:17:51
+================================================================================
+[2023-12-17T12:18:24.827+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:18:21
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:18:22
+================================================================================
+[2023-12-17T12:18:54.901+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.20s           2023-12-17T05:18:51
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.20s           2023-12-17T05:18:52
+================================================================================
+[2023-12-17T12:19:24.909+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:19:21
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:19:23
+================================================================================
+[2023-12-17T12:19:55.057+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:19:51
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T05:19:54
+================================================================================
+[2023-12-17T12:20:25.140+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:20:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:20:24
+================================================================================
+[2023-12-17T12:20:55.217+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T05:20:52
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:20:54
+================================================================================
+[2023-12-17T12:21:05.623+0700] {manager.py:755} INFO - Searching for files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:21:05.627+0700] {manager.py:758} INFO - There are 2 files in /home/phuc/Practice/DataScience/DSProject/job_airflow/dags
+[2023-12-17T12:21:25.282+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T05:21:22
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T05:21:24
+================================================================================
+[2023-12-17T12:21:33.111+0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-12-17T12:21:33.167+0700] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

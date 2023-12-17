@@ -6,7 +6,7 @@ class CareerlinkSpider(scrapy.Spider):
     
     api_url='https://www.careerlink.vn/vieclam/list?page={}'
     custom_settings = {
-        "CLOSESPIDER_PAGECOUNT": 30
+        "CLOSESPIDER_PAGECOUNT": 30000
     }
     def start_requests(self):
         pages = []

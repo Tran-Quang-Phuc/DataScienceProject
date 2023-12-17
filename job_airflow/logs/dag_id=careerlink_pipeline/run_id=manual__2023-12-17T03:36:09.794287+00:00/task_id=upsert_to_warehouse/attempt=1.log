@@ -1,0 +1,47 @@
+[2023-12-17T10:55:57.036+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [queued]>
+[2023-12-17T10:55:57.039+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [queued]>
+[2023-12-17T10:55:57.039+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-12-17T10:55:57.046+0700] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): upsert_to_warehouse> on 2023-12-17 03:36:09.794287+00:00
+[2023-12-17T10:55:57.047+0700] {standard_task_runner.py:57} INFO - Started process 389148 to run task
+[2023-12-17T10:55:57.049+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'upsert_to_warehouse', 'manual__2023-12-17T03:36:09.794287+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dags.py', '--cfg-path', '/tmp/tmpl35pkzc7']
+[2023-12-17T10:55:57.050+0700] {standard_task_runner.py:85} INFO - Job 56: Subtask upsert_to_warehouse
+[2023-12-17T10:55:57.065+0700] {task_command.py:416} INFO - Running <TaskInstance: careerlink_pipeline.upsert_to_warehouse manual__2023-12-17T03:36:09.794287+00:00 [running]> on host phuc-ASUS
+[2023-12-17T10:55:57.094+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='careerlink_pipeline' AIRFLOW_CTX_TASK_ID='upsert_to_warehouse' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T03:36:09.794287+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-17T03:36:09.794287+00:00'
+[2023-12-17T10:55:57.094+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-17T10:55:57.094+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 upsert_to_warehouse.py upsert-careerlink-into-warehouse /home/phuc/Practice/DataScience/DSProject/data/ingestion/careerlink /home/phuc/Practice/DataScience/DSProject/data/warehouse']
+[2023-12-17T10:55:57.098+0700] {subprocess.py:86} INFO - Output:
+[2023-12-17T10:55:58.017+0700] {subprocess.py:93} INFO - 23/12/17 10:55:58 WARN Utils: Your hostname, phuc-ASUS resolves to a loopback address: 127.0.1.1; using 192.168.0.103 instead (on interface wlp45s0)
+[2023-12-17T10:55:58.019+0700] {subprocess.py:93} INFO - 23/12/17 10:55:58 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2023-12-17T10:55:58.223+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2023-12-17T10:55:58.268+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/phuc/.ivy2/cache
+[2023-12-17T10:55:58.269+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/phuc/.ivy2/jars
+[2023-12-17T10:55:58.271+0700] {subprocess.py:93} INFO - io.delta#delta-spark_2.12 added as a dependency
+[2023-12-17T10:55:58.271+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-daa56195-d5e7-4134-9899-35b47d878f89;1.0
+[2023-12-17T10:55:58.272+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2023-12-17T10:55:58.335+0700] {subprocess.py:93} INFO - 	found io.delta#delta-spark_2.12;3.0.0 in central
+[2023-12-17T10:55:58.351+0700] {subprocess.py:93} INFO - 	found io.delta#delta-storage;3.0.0 in central
+[2023-12-17T10:55:58.363+0700] {subprocess.py:93} INFO - 	found org.antlr#antlr4-runtime;4.9.3 in central
+[2023-12-17T10:55:58.373+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 99ms :: artifacts dl 3ms
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	:: modules in use:
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	io.delta#delta-spark_2.12;3.0.0 from central in [default]
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	io.delta#delta-storage;3.0.0 from central in [default]
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	org.antlr#antlr4-runtime;4.9.3 from central in [default]
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+[2023-12-17T10:55:58.374+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2023-12-17T10:55:58.376+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-daa56195-d5e7-4134-9899-35b47d878f89
+[2023-12-17T10:55:58.376+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2023-12-17T10:55:58.379+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/3ms)
+[2023-12-17T10:55:58.491+0700] {subprocess.py:93} INFO - 23/12/17 10:55:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-12-17T10:55:58.607+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2023-12-17T10:55:58.607+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2023-12-17T10:55:59.123+0700] {subprocess.py:93} INFO - 23/12/17 10:55:59 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2023-12-17T10:56:04.218+0700] {subprocess.py:93} INFO - 23/12/17 10:56:04 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2023-12-17T10:56:08.501+0700] {subprocess.py:93} INFO - [Stage 4:==>                                                       (2 + 1) / 50][Stage 4:======>                                                   (6 + 1) / 50][Stage 4:===========>                                             (10 + 1) / 50][Stage 4:=================>                                       (15 + 1) / 50][Stage 4:======================>                                  (20 + 1) / 50][Stage 4:============================>                            (25 + 1) / 50][Stage 4:==================================>                      (30 + 1) / 50][Stage 4:=======================================>                 (35 + 1) / 50][Stage 4:==============================================>          (41 + 1) / 50][Stage 4:=====================================================>   (47 + 1) / 50]
+[2023-12-17T10:56:08.501+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-17T10:56:08.510+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=careerlink_pipeline, task_id=upsert_to_warehouse, execution_date=20231217T033609, start_date=20231217T035557, end_date=20231217T035608
+[2023-12-17T10:56:08.542+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-17T10:56:08.556+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -5,6 +5,9 @@ import requests
 class CareerbuilderSpider(scrapy.Spider):
     name = "careerbuilder"
     api_url = 'https://careerbuilder.vn/viec-lam/tat-ca-viec-lam-trang-{}-vi.html'
+    custom_settings = {
+        "CLOSESPIDER_PAGECOUNT": 300
+    }
 
     def start_requests(self):
         initPage = 1

@@ -54,8 +54,8 @@ def transform_and_ingest(
             cols[col] = F.when(job_df[col].isNotNull(), job_df[col]).otherwise(delta_df[col])
         deltaTable.alias("ingestion_table").merge(
             job_df.alias("daily_table"),
-            "ingestion_table.job_id = daily_table.job_id"
-        ).whenMatchedUpdate(set=cols).whenNotMatchedInsertAll()
+            'ingestion_table.post_id = daily_table.post_id'
+        ).whenMatchedUpdate(set=cols).whenNotMatchedInsertAll().execute()
         
     else:
         job_df.write.format("delta").save(ingest_table)

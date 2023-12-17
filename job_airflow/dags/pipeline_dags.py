@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from tasks.check_file_exists import find_matching_file
 
 
-def create_custom_dag(dag_name, schedule_interval, source):
+def create_custom_dag(source):
     '''
     source is crawler name, must be the same with forder in job_transformation
     '''
@@ -18,11 +18,11 @@ def create_custom_dag(dag_name, schedule_interval, source):
    
     # Create a new DAG dynamically
     with  DAG(
-        dag_id="test_1",
+        dag_id=f"{source}_pipeline",
         start_date=datetime(2022,7,28),
         schedule=timedelta(minutes=1200),
         catchup=False,
-        tags= ["career_link", "job"],
+        tags= [source, "job"],
         default_args={
             "retries": 3,
             "retry_delay": timedelta(minutes=3)
@@ -62,5 +62,5 @@ def create_custom_dag(dag_name, schedule_interval, source):
 
 sources = ["careerlink"]
 for source in sources:
-    create_custom_dag(dag_name=f"{source}_pipeline_1", schedule_interval=None, source=source)
+    create_custom_dag(source)
 

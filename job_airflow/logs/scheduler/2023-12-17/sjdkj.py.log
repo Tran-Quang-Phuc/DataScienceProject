@@ -1564,3 +1564,24 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
 [2023-12-17T10:31:07.779+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:31:07.779+0700] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-12-17T10:31:07.788+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:31:07.787+0700] {dag.py:3722} INFO - Setting next_dagrun for sjvlksdnv to 2023-12-17T01:55:12.291602+00:00, run_after=2023-12-17T21:55:12.291602+00:00
 [2023-12-17T10:31:07.798+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py took 0.039 seconds
+[2023-12-17T10:31:37.941+0700] {processor.py:157} INFO - Started process (PID=375803) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:31:37.942+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py for tasks to queue
+[2023-12-17T10:31:37.944+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:31:37.943+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:31:37.952+0700] {processor.py:839} INFO - DAG(s) dict_keys(['sjvlksdnv']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:31:37.964+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:31:37.964+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:31:37.972+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:31:37.972+0700] {dag.py:3722} INFO - Setting next_dagrun for sjvlksdnv to 2023-12-17T01:55:12.291602+00:00, run_after=2023-12-17T21:55:12.291602+00:00
+[2023-12-17T10:31:37.982+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py took 0.046 seconds
+[2023-12-17T10:32:08.104+0700] {processor.py:157} INFO - Started process (PID=375946) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:32:08.112+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py for tasks to queue
+[2023-12-17T10:32:08.113+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:32:08.112+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:32:08.124+0700] {processor.py:839} INFO - DAG(s) dict_keys(['sjvlksdnv']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:32:08.138+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:32:08.138+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:32:08.146+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:32:08.146+0700] {dag.py:3722} INFO - Setting next_dagrun for sjvlksdnv to 2023-12-17T01:55:12.291602+00:00, run_after=2023-12-17T21:55:12.291602+00:00
+[2023-12-17T10:32:08.156+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py took 0.055 seconds
+[2023-12-17T10:32:38.278+0700] {processor.py:157} INFO - Started process (PID=376108) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:32:38.285+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py for tasks to queue
+[2023-12-17T10:32:38.286+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:32:38.286+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:32:38.297+0700] {processor.py:839} INFO - DAG(s) dict_keys(['sjvlksdnv']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py
+[2023-12-17T10:32:38.311+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:32:38.310+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T10:32:38.319+0700] {logging_mixin.py:154} INFO - [2023-12-17T10:32:38.319+0700] {dag.py:3722} INFO - Setting next_dagrun for sjvlksdnv to 2023-12-17T01:55:12.291602+00:00, run_after=2023-12-17T21:55:12.291602+00:00
+[2023-12-17T10:32:38.328+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py took 0.054 seconds

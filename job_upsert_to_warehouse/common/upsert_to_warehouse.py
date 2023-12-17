@@ -32,19 +32,20 @@ def upsert_to_warehouse(
         update_cols = {}
         for column in columns:
             col = column.alias or column.name
-            update_cols[col] = F.when(job_df[col].isNotNull(), F.col(col)).otherwise(warehouse_df[col])
+            update_cols[col] = F.when(job_df[col].isNotNull(), job_df[col]).otherwise(warehouse_df[col])
         update_cols["updated_at"] = job_df["updated_at"]
         
         # to filter 2 job is the same
         merge_conditions = """
-            warehouse.title = job.title 
-            AND warehouse.company_name == job.company_name
+            warehouse.id = job.id 
+            AND warehouse.company_name = job.company_name
+            AND warehouse.title = job.title
         """
 
         warehouse.alias("warehouse").merge(
             job_df.alias("job"),
             condition=merge_conditions
         ).whenNotMatchedInsertAll() \
-        .whenMatchedUpdate(set=update_cols)
+        .whenMatchedUpdate(set=update_cols).execute()
     else:
         job_df.write.format("delta").save(warehouse_table)

@@ -1,0 +1,14 @@
+[2023-12-17T10:34:16.204+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: careerlink_pipeline.check_daily_file_exists scheduled__2023-12-16T07:33:42.740911+00:00 [queued]>
+[2023-12-17T10:34:16.209+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: careerlink_pipeline.check_daily_file_exists scheduled__2023-12-16T07:33:42.740911+00:00 [queued]>
+[2023-12-17T10:34:16.209+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
+[2023-12-17T10:34:16.216+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): check_daily_file_exists> on 2023-12-16 07:33:42.740911+00:00
+[2023-12-17T10:34:16.218+0700] {standard_task_runner.py:57} INFO - Started process 376671 to run task
+[2023-12-17T10:34:16.219+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'check_daily_file_exists', 'scheduled__2023-12-16T07:33:42.740911+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dags.py', '--cfg-path', '/tmp/tmpydwz4kjn']
+[2023-12-17T10:34:16.220+0700] {standard_task_runner.py:85} INFO - Job 47: Subtask check_daily_file_exists
+[2023-12-17T10:34:16.239+0700] {task_command.py:416} INFO - Running <TaskInstance: careerlink_pipeline.check_daily_file_exists scheduled__2023-12-16T07:33:42.740911+00:00 [running]> on host phuc-ASUS
+[2023-12-17T10:34:16.268+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='careerlink_pipeline' AIRFLOW_CTX_TASK_ID='check_daily_file_exists' AIRFLOW_CTX_EXECUTION_DATE='2023-12-16T07:33:42.740911+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-16T07:33:42.740911+00:00'
+[2023-12-17T10:34:16.275+0700] {logging_mixin.py:154} INFO - /home/phuc/Practice/DataScience/DSProject/data/raw/careerlink/2023-12-17T03-34-11+00-00.csv
+[2023-12-17T10:34:16.276+0700] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-17T10:34:16.279+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=careerlink_pipeline, task_id=check_daily_file_exists, execution_date=20231216T073342, start_date=20231217T033416, end_date=20231217T033416
+[2023-12-17T10:34:16.311+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-17T10:34:16.322+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
