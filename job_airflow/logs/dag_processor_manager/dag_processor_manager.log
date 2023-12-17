@@ -5405,3 +5405,23 @@ File Path                                                                    PID
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:27:06
 /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:27:35
 ================================================================================
+[2023-12-17T10:28:05.696+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.11s           2023-12-17T03:27:47
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:27:36
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.11s           2023-12-17T03:28:05
+================================================================================
+[2023-12-17T10:28:35.868+0700] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/career_link.py                             1           0  0.10s           2023-12-17T03:28:17
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/sjdkj.py                                   1           0  0.10s           2023-12-17T03:28:06
+/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/pipeline_dags.py                           1           0  0.10s           2023-12-17T03:28:35
+================================================================================
