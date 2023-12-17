@@ -1,0 +1,625 @@
+[2023-12-17T08:03:01.001+0700] {processor.py:157} INFO - Started process (PID=309563) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:03:01.001+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:03:01.002+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.001+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:03:01.008+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:03:01.075+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.074+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-17T08:03:01.085+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.084+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-17T08:03:01.091+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.091+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-17T08:03:01.092+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.091+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:03:01.101+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.100+0700] {dag.py:2963} INFO - Creating ORM DAG for careerlink_pipeline
+[2023-12-17T08:03:01.101+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:01.101+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:03:01.111+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.113 seconds
+[2023-12-17T08:03:51.948+0700] {processor.py:157} INFO - Started process (PID=309971) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:03:51.955+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:03:51.956+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:51.956+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:03:51.963+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:03:51.977+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:51.977+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:03:51.986+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:03:51.986+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:03:52.002+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.057 seconds
+[2023-12-17T08:05:16.412+0700] {processor.py:157} INFO - Started process (PID=310771) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:05:16.413+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:05:16.414+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:05:16.413+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:05:16.418+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:05:16.438+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:05:16.438+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:05:16.446+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:05:16.445+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:05:16.460+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:06:06.857+0700] {processor.py:157} INFO - Started process (PID=311274) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:06:06.864+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:06:06.865+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:06:06.864+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:06:06.869+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:06:06.881+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:06:06.881+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:06:06.890+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:06:06.890+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:06:06.906+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.051 seconds
+[2023-12-17T08:06:45.819+0700] {processor.py:157} INFO - Started process (PID=311712) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:06:45.825+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:06:45.827+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:06:45.826+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:06:45.836+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:06:45.850+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:06:45.850+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:06:45.859+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:06:45.859+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:06:45.874+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.057 seconds
+[2023-12-17T08:07:18.920+0700] {processor.py:157} INFO - Started process (PID=312061) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:07:18.922+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:07:18.923+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:07:18.922+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:07:18.931+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:07:18.952+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:07:18.952+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:07:18.965+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:07:18.965+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:07:19.001+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.085 seconds
+[2023-12-17T08:08:17.828+0700] {processor.py:157} INFO - Started process (PID=313039) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:08:17.835+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:08:17.837+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:08:17.836+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:08:17.846+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:08:17.858+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:08:17.858+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:08:17.864+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:08:17.863+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:08:17.875+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:08:55.857+0700] {processor.py:157} INFO - Started process (PID=313276) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:08:55.858+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:08:55.860+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:08:55.859+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:08:55.870+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:08:55.889+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:08:55.889+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:08:55.900+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:08:55.900+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:08:55.928+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.073 seconds
+[2023-12-17T08:09:30.404+0700] {processor.py:157} INFO - Started process (PID=313473) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:09:30.411+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:09:30.412+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:09:30.412+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:09:30.422+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:09:30.434+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:09:30.434+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:09:30.440+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:09:30.440+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:09:30.451+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:10:00.827+0700] {processor.py:157} INFO - Started process (PID=313738) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:10:00.835+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:10:00.836+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:10:00.835+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:10:00.842+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:10:00.851+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:10:00.851+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:10:00.857+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:10:00.857+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:10:00.868+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.043 seconds
+[2023-12-17T08:10:35.800+0700] {processor.py:157} INFO - Started process (PID=313904) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:10:35.807+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:10:35.808+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:10:35.808+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:10:35.818+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:10:35.830+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:10:35.830+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:10:35.836+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:10:35.835+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:10:35.847+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:11:09.437+0700] {processor.py:157} INFO - Started process (PID=314055) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:11:09.444+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:11:09.445+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:11:09.445+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:11:09.454+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:11:09.467+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:11:09.467+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:11:09.473+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:11:09.473+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:11:09.484+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:11:40.319+0700] {processor.py:157} INFO - Started process (PID=314212) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:11:40.326+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:11:40.328+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:11:40.327+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:11:40.337+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:11:40.350+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:11:40.350+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:11:40.357+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:11:40.357+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:11:40.370+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.054 seconds
+[2023-12-17T08:12:14.991+0700] {processor.py:157} INFO - Started process (PID=314382) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:12:14.998+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:12:15.000+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:12:14.999+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:12:15.009+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:12:15.021+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:12:15.021+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:12:15.027+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:12:15.026+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:12:15.038+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:12:49.572+0700] {processor.py:157} INFO - Started process (PID=314523) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:12:49.579+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:12:49.581+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:12:49.580+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:12:49.589+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:12:49.600+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:12:49.600+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:12:49.608+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:12:49.608+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:12:49.621+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.052 seconds
+[2023-12-17T08:13:32.699+0700] {processor.py:157} INFO - Started process (PID=314781) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:13:32.706+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:13:32.707+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:13:32.707+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:13:32.713+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:13:32.722+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:13:32.722+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:13:32.728+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:13:32.728+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:13:32.739+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.043 seconds
+[2023-12-17T08:14:06.742+0700] {processor.py:157} INFO - Started process (PID=314935) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:14:06.742+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:14:06.743+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:14:06.743+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:14:06.746+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:14:06.756+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:14:06.756+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:14:06.762+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:14:06.762+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:14:06.773+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.034 seconds
+[2023-12-17T08:14:41.570+0700] {processor.py:157} INFO - Started process (PID=315072) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:14:41.577+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:14:41.579+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:14:41.578+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:14:41.588+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:14:41.600+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:14:41.600+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:14:41.607+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:14:41.606+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:14:41.620+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.053 seconds
+[2023-12-17T08:15:17.714+0700] {processor.py:157} INFO - Started process (PID=315233) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:15:17.720+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:15:17.722+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:15:17.721+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:15:17.731+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:15:17.743+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:15:17.743+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:15:17.749+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:15:17.749+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:15:17.761+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.049 seconds
+[2023-12-17T08:15:52.287+0700] {processor.py:157} INFO - Started process (PID=315384) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:15:52.293+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:15:52.294+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:15:52.294+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:15:52.300+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:15:52.313+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:15:52.313+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:15:52.321+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:15:52.321+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:15:52.336+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.052 seconds
+[2023-12-17T08:16:08.879+0700] {processor.py:157} INFO - Started process (PID=315517) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:16:08.886+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:16:08.887+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:16:08.887+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:16:08.893+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:16:08.945+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:16:08.945+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:16:08.950+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:16:08.950+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:16:08.963+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.086 seconds
+[2023-12-17T08:17:35.039+0700] {processor.py:157} INFO - Started process (PID=316324) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:17:35.039+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:17:35.040+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:17:35.040+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:17:35.043+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:17:35.100+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:17:35.100+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:17:35.106+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:17:35.106+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:17:35.120+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.083 seconds
+[2023-12-17T08:18:22.122+0700] {processor.py:157} INFO - Started process (PID=316546) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:18:22.129+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:18:22.130+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:18:22.130+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:18:22.135+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:18:22.151+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:18:22.150+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:18:22.161+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:18:22.161+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:18:22.180+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.061 seconds
+[2023-12-17T08:18:56.026+0700] {processor.py:157} INFO - Started process (PID=316871) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:18:56.033+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:18:56.035+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:18:56.034+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:18:56.043+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:18:56.056+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:18:56.056+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:18:56.065+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:18:56.065+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:18:56.079+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.056 seconds
+[2023-12-17T08:19:32.947+0700] {processor.py:157} INFO - Started process (PID=317250) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:19:32.954+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:19:32.955+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:19:32.955+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:19:32.960+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:19:32.973+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:19:32.973+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:19:32.982+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:19:32.981+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:19:32.997+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.052 seconds
+[2023-12-17T08:20:08.148+0700] {processor.py:157} INFO - Started process (PID=317625) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:20:08.155+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:20:08.156+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:20:08.156+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:20:08.163+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:20:08.246+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:20:08.245+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:20:08.253+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:20:08.253+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:20:08.271+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.125 seconds
+[2023-12-17T08:20:48.974+0700] {processor.py:157} INFO - Started process (PID=318057) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:20:48.980+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:20:48.981+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:20:48.981+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:20:48.987+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:20:49.002+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:20:49.001+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:20:49.010+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:20:49.010+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:20:49.026+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.056 seconds
+[2023-12-17T08:21:46.620+0700] {processor.py:157} INFO - Started process (PID=318631) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:21:46.621+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:21:46.622+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:21:46.621+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:21:46.627+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:21:46.648+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:21:46.648+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:21:46.656+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:21:46.656+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:21:46.674+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.057 seconds
+[2023-12-17T08:23:22.661+0700] {processor.py:157} INFO - Started process (PID=319465) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:23:22.668+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:23:22.670+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:23:22.669+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:23:22.678+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:23:22.701+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:23:22.701+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:23:22.716+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:23:22.716+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:23:22.740+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.083 seconds
+[2023-12-17T08:24:01.692+0700] {processor.py:157} INFO - Started process (PID=319705) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:24:01.699+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:24:01.700+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:24:01.700+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:24:01.704+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:24:01.714+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:24:01.714+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:24:01.720+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:24:01.720+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:24:01.731+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.042 seconds
+[2023-12-17T08:24:36.420+0700] {processor.py:157} INFO - Started process (PID=319874) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:24:36.427+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:24:36.428+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:24:36.428+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:24:36.437+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:24:36.449+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:24:36.449+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:24:36.455+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:24:36.455+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:24:36.466+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.049 seconds
+[2023-12-17T08:25:14.714+0700] {processor.py:157} INFO - Started process (PID=320032) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:25:14.721+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:25:14.723+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:25:14.722+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:25:14.732+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:25:14.744+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:25:14.744+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:25:14.750+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:25:14.750+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:25:14.762+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.051 seconds
+[2023-12-17T08:25:49.495+0700] {processor.py:157} INFO - Started process (PID=320189) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:25:49.502+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:25:49.503+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:25:49.502+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:25:49.512+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:25:49.524+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:25:49.524+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:25:49.532+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:25:49.531+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:25:49.543+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.051 seconds
+[2023-12-17T08:26:20.369+0700] {processor.py:157} INFO - Started process (PID=320324) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:26:20.376+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:26:20.377+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:26:20.376+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:26:20.385+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:26:20.398+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:26:20.398+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:26:20.405+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:26:20.405+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:26:20.416+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:26:55.301+0700] {processor.py:157} INFO - Started process (PID=320559) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:26:55.308+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:26:55.309+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:26:55.309+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:26:55.314+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:26:55.326+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:26:55.326+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:26:55.335+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:26:55.334+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:26:55.351+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.052 seconds
+[2023-12-17T08:27:29.338+0700] {processor.py:157} INFO - Started process (PID=320713) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:27:29.339+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:27:29.339+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:27:29.339+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:27:29.346+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:27:29.357+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:27:29.357+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:27:29.363+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:27:29.363+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:27:29.374+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.039 seconds
+[2023-12-17T08:28:03.195+0700] {processor.py:157} INFO - Started process (PID=320849) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:28:03.202+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:28:03.202+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:28:03.202+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:28:03.206+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:28:03.216+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:28:03.215+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:28:03.222+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:28:03.222+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:28:03.234+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.040 seconds
+[2023-12-17T08:28:35.226+0700] {processor.py:157} INFO - Started process (PID=320998) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:28:35.234+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:28:35.235+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:28:35.234+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:28:35.242+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:28:35.251+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:28:35.250+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:28:35.256+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:28:35.256+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:28:35.267+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.043 seconds
+[2023-12-17T08:29:06.158+0700] {processor.py:157} INFO - Started process (PID=321135) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:29:06.165+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:29:06.166+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:29:06.165+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:29:06.175+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:29:06.187+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:29:06.187+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:29:06.193+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:29:06.193+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:29:06.204+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.049 seconds
+[2023-12-17T08:29:40.981+0700] {processor.py:157} INFO - Started process (PID=321292) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:29:40.988+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:29:40.989+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:29:40.988+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:29:40.995+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:29:41.003+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:29:41.003+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:29:41.008+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:29:41.008+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:29:41.018+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.040 seconds
+[2023-12-17T08:30:13.831+0700] {processor.py:157} INFO - Started process (PID=321448) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:30:13.838+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:30:13.839+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:30:13.839+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:30:13.849+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:30:13.860+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:30:13.859+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:30:13.865+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:30:13.865+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:30:13.874+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.046 seconds
+[2023-12-17T08:30:47.861+0700] {processor.py:157} INFO - Started process (PID=321623) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:30:47.868+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:30:47.869+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:30:47.869+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:30:47.872+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:30:47.880+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:30:47.880+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:30:47.885+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:30:47.885+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:30:47.894+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.036 seconds
+[2023-12-17T08:31:22.432+0700] {processor.py:157} INFO - Started process (PID=321876) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:31:22.439+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:31:22.440+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:31:22.440+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:31:22.446+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:31:22.454+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:31:22.454+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:31:22.460+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:31:22.460+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:31:22.469+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.039 seconds
+[2023-12-17T08:31:58.460+0700] {processor.py:157} INFO - Started process (PID=322145) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:31:58.461+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:31:58.462+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:31:58.461+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:31:58.469+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:31:58.480+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:31:58.480+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:31:58.488+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:31:58.487+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:31:58.512+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.055 seconds
+[2023-12-17T08:32:39.497+0700] {processor.py:157} INFO - Started process (PID=322965) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:32:39.503+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:32:39.504+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:32:39.504+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:32:39.508+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:32:39.518+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:32:39.518+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:32:39.524+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:32:39.524+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline to None, run_after=None
+[2023-12-17T08:32:39.536+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.042 seconds
+[2023-12-17T08:33:07.495+0700] {processor.py:157} INFO - Started process (PID=323085) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:33:07.502+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:33:07.503+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:33:07.503+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:33:07.505+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:33:07.514+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.021 seconds
+[2023-12-17T08:33:55.397+0700] {processor.py:157} INFO - Started process (PID=323323) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:33:55.404+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:33:55.404+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:33:55.404+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:33:55.406+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:33:55.414+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.018 seconds
+[2023-12-17T08:34:33.776+0700] {processor.py:157} INFO - Started process (PID=323669) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:34:33.776+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:34:33.777+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:34:33.777+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:34:33.778+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:34:33.786+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.013 seconds
+[2023-12-17T08:35:09.821+0700] {processor.py:157} INFO - Started process (PID=323978) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:35:09.828+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:35:09.830+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:35:09.829+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:35:09.834+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:35:09.840+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.020 seconds
+[2023-12-17T08:35:45.856+0700] {processor.py:157} INFO - Started process (PID=324262) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:35:45.856+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:35:45.857+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:35:45.857+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:35:45.858+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:35:45.864+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.012 seconds
+[2023-12-17T08:36:30.555+0700] {processor.py:157} INFO - Started process (PID=324563) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:36:30.556+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:36:30.556+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:36:30.556+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:36:30.558+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:36:30.563+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.010 seconds
+[2023-12-17T08:37:01.705+0700] {processor.py:157} INFO - Started process (PID=324853) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:37:01.711+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:37:01.713+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:37:01.712+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:37:01.717+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:37:01.722+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.019 seconds
+[2023-12-17T08:37:31.968+0700] {processor.py:157} INFO - Started process (PID=324994) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:37:31.975+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:37:31.976+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:37:31.976+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:37:31.981+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:37:31.986+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.019 seconds
+[2023-12-17T08:38:00.309+0700] {processor.py:157} INFO - Started process (PID=325101) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:00.315+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:00.317+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:00.316+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:00.322+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:00.321+0700] {dagbag.py:346} ERROR - Failed to import: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py", line 27
+    with dag = DAG(
+             ^
+SyntaxError: invalid syntax
+[2023-12-17T08:38:00.323+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:00.339+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.034 seconds
+[2023-12-17T08:38:03.258+0700] {processor.py:157} INFO - Started process (PID=325104) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:03.259+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:03.259+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:03.259+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:03.261+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:03.260+0700] {dagbag.py:346} ERROR - Failed to import: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py", line 31
+    )
+     ^
+SyntaxError: expected ':'
+[2023-12-17T08:38:03.261+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:03.271+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.014 seconds
+[2023-12-17T08:38:07.268+0700] {processor.py:157} INFO - Started process (PID=325124) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:07.269+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:07.270+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:07.269+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:07.272+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:07.271+0700] {dagbag.py:346} ERROR - Failed to import: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py", line 33
+    t0 = BashOperator(
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 27
+[2023-12-17T08:38:07.272+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:07.281+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.015 seconds
+[2023-12-17T08:38:12.317+0700] {processor.py:157} INFO - Started process (PID=325142) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:12.317+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:12.317+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:12.317+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:12.319+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:12.327+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.012 seconds
+[2023-12-17T08:38:14.477+0700] {processor.py:157} INFO - Started process (PID=325161) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:14.477+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:14.478+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:14.477+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:14.480+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:14.487+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.012 seconds
+[2023-12-17T08:38:17.367+0700] {processor.py:157} INFO - Started process (PID=325165) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:17.368+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:17.370+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:17.369+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:17.375+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:17.374+0700] {dagbag.py:346} ERROR - Failed to import: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py", line 44
+    )
+    ^
+SyntaxError: invalid syntax
+[2023-12-17T08:38:17.375+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:17.387+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.026 seconds
+[2023-12-17T08:38:20.553+0700] {processor.py:157} INFO - Started process (PID=325185) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:20.553+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:20.554+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:20.553+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:20.562+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:20.569+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.018 seconds
+[2023-12-17T08:38:22.380+0700] {processor.py:157} INFO - Started process (PID=325188) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:22.381+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:22.381+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:22.381+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:22.384+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:22.389+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.010 seconds
+[2023-12-17T08:38:24.566+0700] {processor.py:157} INFO - Started process (PID=325207) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:24.566+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:24.566+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:24.566+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:24.568+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:24.573+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.009 seconds
+[2023-12-17T08:38:27.434+0700] {processor.py:157} INFO - Started process (PID=325211) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:27.435+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:27.436+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:27.435+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:27.441+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:27.450+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.018 seconds
+[2023-12-17T08:38:28.564+0700] {processor.py:157} INFO - Started process (PID=325213) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:28.564+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:28.565+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:28.565+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:28.567+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:28.572+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.010 seconds
+[2023-12-17T08:38:30.478+0700] {processor.py:157} INFO - Started process (PID=325232) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:30.479+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:30.479+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:30.479+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:30.481+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:30.487+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.012 seconds
+[2023-12-17T08:38:38.553+0700] {processor.py:157} INFO - Started process (PID=325254) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:38.553+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:38:38.554+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:38:38.554+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:38.556+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:38:38.562+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.010 seconds
+[2023-12-17T08:39:08.796+0700] {processor.py:157} INFO - Started process (PID=325585) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:39:08.803+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:39:08.804+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:39:08.804+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:39:08.808+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:39:08.814+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.019 seconds
+[2023-12-17T08:39:38.999+0700] {processor.py:157} INFO - Started process (PID=325692) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:39:39.005+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:39:39.006+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:39:39.006+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:39:39.008+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:39:39.013+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.016 seconds
+[2023-12-17T08:40:08.227+0700] {processor.py:157} INFO - Started process (PID=325809) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:08.234+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:40:08.235+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.234+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:08.249+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:08.305+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.305+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-17T08:40:08.311+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.311+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-17T08:40:08.315+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.315+0700] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-17T08:40:08.315+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.315+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:40:08.322+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.321+0700] {dag.py:2963} INFO - Creating ORM DAG for careerlink_pipeline_1
+[2023-12-17T08:40:08.322+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:08.322+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:40:08.331+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.106 seconds
+[2023-12-17T08:40:11.212+0700] {processor.py:157} INFO - Started process (PID=325828) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:11.213+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:40:11.213+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:11.213+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:11.222+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:11.228+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:11.228+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:40:11.237+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:11.237+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:40:11.247+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.038 seconds
+[2023-12-17T08:40:12.218+0700] {processor.py:157} INFO - Started process (PID=325829) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:12.218+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:40:12.219+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:12.219+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:12.227+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:12.232+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:12.231+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:40:12.239+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:12.239+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:40:12.252+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.036 seconds
+[2023-12-17T08:40:14.385+0700] {processor.py:157} INFO - Started process (PID=325832) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:14.386+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:40:14.386+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:14.386+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:14.393+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:14.396+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:14.396+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:40:14.402+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:14.402+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:40:14.413+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.029 seconds
+[2023-12-17T08:40:19.430+0700] {processor.py:157} INFO - Started process (PID=325851) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:19.436+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:40:19.437+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:19.436+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:19.444+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:40:19.448+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:19.448+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:40:19.455+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:40:19.455+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:40:19.466+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.038 seconds
+[2023-12-17T08:41:23.230+0700] {processor.py:157} INFO - Started process (PID=326437) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:41:23.230+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:41:23.231+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:41:23.230+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:41:23.234+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:41:23.246+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:41:23.246+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:41:23.252+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:41:23.252+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:41:23.262+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.034 seconds
+[2023-12-17T08:41:53.394+0700] {processor.py:157} INFO - Started process (PID=326752) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:41:53.401+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:41:53.402+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:41:53.402+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:41:53.405+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:41:53.417+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:41:53.417+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:41:53.423+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:41:53.423+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:41:53.432+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.040 seconds
+[2023-12-17T08:42:24.029+0700] {processor.py:157} INFO - Started process (PID=327505) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:24.029+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:42:24.030+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:24.030+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:24.033+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:24.047+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:24.047+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:42:24.052+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:24.052+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:42:24.063+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.036 seconds
+[2023-12-17T08:42:42.275+0700] {processor.py:157} INFO - Started process (PID=327613) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:42.282+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:42:42.284+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:42.283+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:42.295+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:42.309+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:42.309+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:42:42.314+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:42.314+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:42:42.324+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.050 seconds
+[2023-12-17T08:42:44.084+0700] {processor.py:157} INFO - Started process (PID=327631) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:44.085+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:42:44.086+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:44.086+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:44.095+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:44.107+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:44.107+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:42:44.112+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:44.112+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:42:44.122+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.043 seconds
+[2023-12-17T08:42:52.344+0700] {processor.py:157} INFO - Started process (PID=327651) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:52.345+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:42:52.345+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:52.345+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:52.349+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:52.395+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:52.395+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:42:52.399+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:52.399+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:42:52.409+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.070 seconds
+[2023-12-17T08:42:56.462+0700] {processor.py:157} INFO - Started process (PID=327674) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:56.462+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:42:56.463+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:56.462+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:56.467+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:42:56.471+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:56.470+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:42:56.476+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:42:56.476+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:42:56.486+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.026 seconds
+[2023-12-17T08:43:01.397+0700] {processor.py:157} INFO - Started process (PID=327694) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:01.404+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:43:01.405+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:01.405+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:01.416+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:01.422+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:01.422+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:43:01.428+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:01.428+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:43:01.438+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.042 seconds
+[2023-12-17T08:43:05.402+0700] {processor.py:157} INFO - Started process (PID=327714) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:05.409+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:43:05.409+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:05.409+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:05.411+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:05.410+0700] {dagbag.py:346} ERROR - Failed to import: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py", line 47
+    bash_command= f"python3 careerlink/transformation_and_ingestion.py $daily_table {}",
+                                                                                       ^
+SyntaxError: f-string: empty expression not allowed
+[2023-12-17T08:43:05.411+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:05.420+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.020 seconds
+[2023-12-17T08:43:08.641+0700] {processor.py:157} INFO - Started process (PID=327732) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:08.642+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:43:08.642+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:08.642+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:08.645+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:08.644+0700] {dagbag.py:346} ERROR - Failed to import: /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py", line 47
+    (in)
+     ^^
+SyntaxError: f-string: invalid syntax
+[2023-12-17T08:43:08.645+0700] {processor.py:841} WARNING - No viable dags retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:08.656+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.018 seconds
+[2023-12-17T08:43:10.463+0700] {processor.py:157} INFO - Started process (PID=327735) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:10.463+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:43:10.464+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:10.463+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:10.468+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:10.472+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:10.472+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:43:10.479+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:10.479+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:43:10.492+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.032 seconds
+[2023-12-17T08:43:40.801+0700] {processor.py:157} INFO - Started process (PID=327841) to work on /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:40.801+0700] {processor.py:829} INFO - Processing file /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py for tasks to queue
+[2023-12-17T08:43:40.802+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:40.802+0700] {dagbag.py:536} INFO - Filling up the DagBag from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:40.806+0700] {processor.py:839} INFO - DAG(s) dict_keys(['careerlink_pipeline_1']) retrieved from /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py
+[2023-12-17T08:43:40.861+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:40.861+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-12-17T08:43:40.868+0700] {logging_mixin.py:154} INFO - [2023-12-17T08:43:40.867+0700] {dag.py:3722} INFO - Setting next_dagrun for careerlink_pipeline_1 to None, run_after=None
+[2023-12-17T08:43:40.879+0700] {processor.py:179} INFO - Processing /home/phuc/Practice/DataScience/DSProject/job_airflow/dags/create_dag.py took 0.080 seconds

@@ -1,4 +1,4 @@
-#!/home/phuc/Practice/DataScience/DSProject/venv/bin/python3
+#!/home/phuc/Practice/DataScience/DSProject/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

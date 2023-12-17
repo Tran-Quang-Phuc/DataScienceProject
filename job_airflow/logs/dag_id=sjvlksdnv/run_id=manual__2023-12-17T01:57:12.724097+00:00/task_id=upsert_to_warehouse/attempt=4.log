@@ -1,0 +1,239 @@
+[2023-12-17T09:08:44.010+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sjvlksdnv.upsert_to_warehouse manual__2023-12-17T01:57:12.724097+00:00 [queued]>
+[2023-12-17T09:08:44.014+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sjvlksdnv.upsert_to_warehouse manual__2023-12-17T01:57:12.724097+00:00 [queued]>
+[2023-12-17T09:08:44.014+0700] {taskinstance.py:1361} INFO - Starting attempt 4 of 4
+[2023-12-17T09:08:44.020+0700] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): upsert_to_warehouse> on 2023-12-17 01:57:12.724097+00:00
+[2023-12-17T09:08:44.021+0700] {standard_task_runner.py:57} INFO - Started process 340976 to run task
+[2023-12-17T09:08:44.023+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'sjvlksdnv', 'upsert_to_warehouse', 'manual__2023-12-17T01:57:12.724097+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/sjdkj.py', '--cfg-path', '/tmp/tmpjvjl3klm']
+[2023-12-17T09:08:44.024+0700] {standard_task_runner.py:85} INFO - Job 28: Subtask upsert_to_warehouse
+[2023-12-17T09:08:44.042+0700] {task_command.py:416} INFO - Running <TaskInstance: sjvlksdnv.upsert_to_warehouse manual__2023-12-17T01:57:12.724097+00:00 [running]> on host phuc-ASUS
+[2023-12-17T09:08:44.066+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='sjvlksdnv' AIRFLOW_CTX_TASK_ID='upsert_to_warehouse' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T01:57:12.724097+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-17T01:57:12.724097+00:00'
+[2023-12-17T09:08:44.067+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-12-17T09:08:44.067+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 upsert_to_warehouse.py /home/phuc/Practice/DataScience/DSProject/data/ingestion/careerlink /home/phuc/Practice/DataScience/DSProject/data/warehouse']
+[2023-12-17T09:08:44.071+0700] {subprocess.py:86} INFO - Output:
+[2023-12-17T09:08:44.984+0700] {subprocess.py:93} INFO - 23/12/17 09:08:44 WARN Utils: Your hostname, phuc-ASUS resolves to a loopback address: 127.0.1.1; using 192.168.0.103 instead (on interface wlp45s0)
+[2023-12-17T09:08:44.985+0700] {subprocess.py:93} INFO - 23/12/17 09:08:44 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2023-12-17T09:08:45.184+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2023-12-17T09:08:45.230+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/phuc/.ivy2/cache
+[2023-12-17T09:08:45.231+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/phuc/.ivy2/jars
+[2023-12-17T09:08:45.233+0700] {subprocess.py:93} INFO - io.delta#delta-spark_2.12 added as a dependency
+[2023-12-17T09:08:45.233+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-09cb2e66-f639-4ab2-bd65-cc5be72c2678;1.0
+[2023-12-17T09:08:45.234+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2023-12-17T09:08:45.292+0700] {subprocess.py:93} INFO - 	found io.delta#delta-spark_2.12;3.0.0 in central
+[2023-12-17T09:08:45.307+0700] {subprocess.py:93} INFO - 	found io.delta#delta-storage;3.0.0 in central
+[2023-12-17T09:08:45.321+0700] {subprocess.py:93} INFO - 	found org.antlr#antlr4-runtime;4.9.3 in central
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 94ms :: artifacts dl 4ms
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	:: modules in use:
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	io.delta#delta-spark_2.12;3.0.0 from central in [default]
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	io.delta#delta-storage;3.0.0 from central in [default]
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	org.antlr#antlr4-runtime;4.9.3 from central in [default]
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2023-12-17T09:08:45.332+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2023-12-17T09:08:45.333+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
+[2023-12-17T09:08:45.333+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2023-12-17T09:08:45.334+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-09cb2e66-f639-4ab2-bd65-cc5be72c2678
+[2023-12-17T09:08:45.334+0700] {subprocess.py:93} INFO - 	confs: [default]
+[2023-12-17T09:08:45.338+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/4ms)
+[2023-12-17T09:08:45.469+0700] {subprocess.py:93} INFO - 23/12/17 09:08:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2023-12-17T09:08:45.615+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2023-12-17T09:08:45.616+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2023-12-17T09:08:46.303+0700] {subprocess.py:93} INFO - 23/12/17 09:08:46 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2023-12-17T09:08:50.543+0700] {subprocess.py:93} INFO - ╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+[2023-12-17T09:08:50.543+0700] {subprocess.py:93} INFO - │ /home/phuc/Practice/DataScience/DSProject/job_upsert_to_warehouse/upsert_to_ │
+[2023-12-17T09:08:50.543+0700] {subprocess.py:93} INFO - │ warehouse.py:26 in upsert_career_link_into_warehouse                         │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │   23 │   if ingest_ids:                                                      │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │   24 │   │   career_link_df = career_link_df.filter(F.col("ingest_id").isin( │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │   25 │                                                                       │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ ❱ 26 │   upsert_to_warehouse(                                                │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │   27 │   │   spark,                                                          │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │   28 │   │   career_link_df,                                                 │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │   29 │   │   warehouse_table,                                                │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │         builder = <pyspark.sql.session.SparkSession.Builder object at    │ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │                   0x7f129a4bc940>                                        │ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │  career_link_df = DataFrame[Industries: string, company_name: string,    │ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │                   education_level: string, employment_type: string,      │ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │                   gender: string, job_address: string, job_deadline:     │ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │                   date, job_description: string, job_experience_requied: │ │
+[2023-12-17T09:08:50.544+0700] {subprocess.py:93} INFO - │ │                   string, job_listed: date, job_title: string, post_id:  │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │                   string, salary: string, skill: string, job_level:      │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │                   string, job_yoe_min: int, job_yoe_max: int,            │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │                   salary_min: int, salary_max: int, ingested_at: date,   │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │                   updated_at: date, _corrupt_record: string]             │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │      ingest_ids = None                                                   │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │    ingest_table = '/home/phuc/Practice/DataScience/DSProject/data/inges… │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │           spark = <pyspark.sql.session.SparkSession object at            │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │                   0x7f129a3c5c00>                                        │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ │ warehouse_table = '/home/phuc/Practice/DataScience/DSProject/data/wareh… │ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ /home/phuc/Practice/DataScience/DSProject/job_upsert_to_warehouse/common/ups │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ ert_to_warehouse.py:24 in upsert_to_warehouse                                │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │   21 │   for col in columns:                                                 │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │   22 │   │   alias = col.alias or col.name                                   │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │   23 │   │   cols.append(F.col(col.name).alias(alias))                       │
+[2023-12-17T09:08:50.545+0700] {subprocess.py:93} INFO - │ ❱ 24 │   job_df = job_df.select(*cols)                                       │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │   25 │   job_df = job_df.withColumn("created_at", F.current_date()).withColu │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │   26 │                                                                       │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │   27 │   if DeltaTable.isDeltaTable(spark, warehouse_table):                 │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │           alias = 'role'                                                 │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │             col = ColumnInfo(name='job_role', alias='role')              │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │            cols = [                                                      │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'post_id AS id'>,                           │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'job_title AS title'>,                      │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'Industries AS industry'>,                  │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'company_name AS company_name'>,            │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'education_level AS education_level'>,      │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'employment_type AS employment_type'>,      │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'gender AS gender'>,                        │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'job_address AS address'>,                  │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'job_description AS description'>,          │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   Column<'job_deadline AS deadline'>,                │ │
+[2023-12-17T09:08:50.546+0700] {subprocess.py:93} INFO - │ │                   │   ... +9                                             │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   ]                                                      │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │         columns = [                                                      │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='post_id', alias='id'),            │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='job_title', alias='title'),       │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='Industries', alias='industry'),   │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='company_name', alias=None),       │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='education_level', alias=None),    │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='employment_type', alias=None),    │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='gender', alias='gender'),         │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(name='job_address', alias='address'),   │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(                                        │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   │   name='job_description',                        │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   │   alias='description'                            │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ),                                                 │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ColumnInfo(                                        │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   │   name='job_deadline',                           │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   │   alias='deadline'                               │ │
+[2023-12-17T09:08:50.547+0700] {subprocess.py:93} INFO - │ │                   │   ),                                                 │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   │   ... +9                                             │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   ]                                                      │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │          job_df = DataFrame[Industries: string, company_name: string,    │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   education_level: string, employment_type: string,      │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   gender: string, job_address: string, job_deadline:     │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   date, job_description: string, job_experience_requied: │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   string, job_listed: date, job_title: string, post_id:  │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   string, salary: string, skill: string, job_level:      │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   string, job_yoe_min: int, job_yoe_max: int,            │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   salary_min: int, salary_max: int, ingested_at: date,   │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   updated_at: date, _corrupt_record: string]             │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │           spark = <pyspark.sql.session.SparkSession object at            │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │                   0x7f129a3c5c00>                                        │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ │ warehouse_table = '/home/phuc/Practice/DataScience/DSProject/data/wareh… │ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/ │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │ pyspark/sql/dataframe.py:3223 in select                                      │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.548+0700] {subprocess.py:93} INFO - │   3220 │   │   |  Bob| 15|                                                   │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │   3221 │   │   +-----+---+                                                   │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │   3222 │   │   """                                                           │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ ❱ 3223 │   │   jdf = self._jdf.select(self._jcols(*cols))                    │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │   3224 │   │   return DataFrame(jdf, self.sparkSession)                      │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │   3225 │                                                                     │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │   3226 │   @overload                                                         │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │ cols = (                                                                 │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'post_id AS id'>,                                      │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'job_title AS title'>,                                 │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'Industries AS industry'>,                             │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'company_name AS company_name'>,                       │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'education_level AS education_level'>,                 │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'employment_type AS employment_type'>,                 │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'gender AS gender'>,                                   │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'job_address AS address'>,                             │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'job_description AS description'>,                     │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   Column<'job_deadline AS deadline'>,                           │ │
+[2023-12-17T09:08:50.549+0700] {subprocess.py:93} INFO - │ │        │   ... +9                                                        │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        )                                                                 │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │ self = DataFrame[Industries: string, company_name: string,               │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        education_level: string, employment_type: string, gender: string, │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        job_address: string, job_deadline: date, job_description: string, │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        job_experience_requied: string, job_listed: date, job_title:      │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        string, post_id: string, salary: string, skill: string,           │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        job_level: string, job_yoe_min: int, job_yoe_max: int,            │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        salary_min: int, salary_max: int, ingested_at: date, updated_at:  │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ │        date, _corrupt_record: string]                                    │ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/ │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ py4j/java_gateway.py:1322 in __call__                                        │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │   1319 │   │   │   proto.END_COMMAND_PART                                    │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │   1320 │   │                                                                 │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │   1321 │   │   answer = self.gateway_client.send_command(command)            │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │ ❱ 1322 │   │   return_value = get_return_value(                              │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │   1323 │   │   │   answer, self.gateway_client, self.target_id, self.name)   │
+[2023-12-17T09:08:50.550+0700] {subprocess.py:93} INFO - │   1324 │   │                                                                 │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │   1325 │   │   for temp_arg in temp_args:                                    │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ ╭──────────────────────────────── locals ────────────────────────────────╮   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ │       answer = 'xro77'                                                 │   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ │         args = (JavaObject id=o76,)                                    │   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ │ args_command = 'ro76\n'                                                │   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ │      command = 'c\no36\nselect\nro76\ne\n'                             │   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ │         self = <py4j.java_gateway.JavaMember object at 0x7f129a4bd480> │   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ │    temp_args = []                                                      │   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ ╰────────────────────────────────────────────────────────────────────────╯   │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ /home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/ │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ pyspark/errors/exceptions/captured.py:185 in deco                            │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │   182 │   │   │   if not isinstance(converted, UnknownException):            │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │   183 │   │   │   │   # Hide where the exception came from that shows a non- │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │   184 │   │   │   │   # JVM exception message.                               │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │ ❱ 185 │   │   │   │   raise converted from None                              │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │   186 │   │   │   else:                                                      │
+[2023-12-17T09:08:50.551+0700] {subprocess.py:93} INFO - │   187 │   │   │   │   raise                                                  │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │   188                                                                        │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │                                                                              │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │         a = (                                                            │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │             │   'xro77',                                                 │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │             │   <py4j.clientserver.JavaClient object at 0x7f129a3c4a60>, │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │             │   'o36',                                                   │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │             │   'select'                                                 │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │             )                                                            │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │ converted = AnalysisException()                                          │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │         f = <function get_return_value at 0x7f129ab6ed40>                │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ │        kw = {}                                                           │ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - ╰──────────────────────────────────────────────────────────────────────────────╯
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - parameter with name `job_role` cannot be resolved. Did you mean one of the
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - following? [`job_title`, `job_level`, `job_listed`, `skill`, `gender`].;
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - 'Project [post_id#50 AS id#83, job_title#49 AS title#84, Industries#39 AS
+[2023-12-17T09:08:50.552+0700] {subprocess.py:93} INFO - industry#85, company_name#40 AS company_name#86, education_level#41 AS
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - education_level#87, employment_type#42 AS employment_type#88, gender#43 AS
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - gender#89, job_address#44 AS address#90, job_description#46 AS description#91,
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - job_deadline#45 AS deadline#92, job_experience_requied#47 AS
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - experience_required#93, job_yoe_min#54 AS yoe_min#94, job_yoe_max#55 AS
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - yoe_max#95, job_listed#48 AS post_date#96, salary#51 AS salary#97, salary_min#56
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - AS salary_min#98, salary_max#57 AS salary_max#99, skill#52 AS skill#100,
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - 'job_role AS role#101]
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - +- Relation
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - [Industries#39,company_name#40,education_level#41,employment_type#42,gender#43,j
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - ob_address#44,job_deadline#45,job_description#46,job_experience_requied#47,job_l
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - isted#48,job_title#49,post_id#50,salary#51,skill#52,job_level#53,job_yoe_min#54,
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - job_yoe_max#55,salary_min#56,salary_max#57,ingested_at#58,updated_at#59,_corrupt
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - _record#60] parquet
+[2023-12-17T09:08:50.553+0700] {subprocess.py:93} INFO - 
+[2023-12-17T09:08:50.960+0700] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-12-17T09:08:50.964+0700] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-12-17T09:08:50.966+0700] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=sjvlksdnv, task_id=upsert_to_warehouse, execution_date=20231217T015712, start_date=20231217T020844, end_date=20231217T020850
+[2023-12-17T09:08:50.978+0700] {standard_task_runner.py:104} ERROR - Failed to execute job 28 for task upsert_to_warehouse (Bash command failed. The command returned a non-zero exit code 1.; 340976)
+[2023-12-17T09:08:50.994+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-17T09:08:51.006+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
