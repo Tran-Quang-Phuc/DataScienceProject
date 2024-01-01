@@ -15,5 +15,3 @@ def modify_company_name(input: str):
     input = input.strip()
 
     return input
-
-

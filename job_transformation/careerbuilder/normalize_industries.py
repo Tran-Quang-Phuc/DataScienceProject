@@ -4,6 +4,8 @@ import pyspark.sql.types as T
 
 @F.udf(returnType=T.StringType())
 def normalize_industries(industries: str):
+    if industries is None:
+        return
     industry_list = industries.split(', ')
     
     # Advertising and marketing - Quảng cáo và tiếp thị

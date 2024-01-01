@@ -7,4 +7,3 @@ class DBConfig:
     password = "postgres"
     database = "recruit"
     table = "job_maket"
-    connection_url = f"{host}:{port}"

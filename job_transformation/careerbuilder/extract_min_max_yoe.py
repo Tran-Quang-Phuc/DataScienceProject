@@ -10,19 +10,22 @@ from pyspark.sql import DataFrame
     ])
 )
 def get_min_max_yoe(job_experience_required: str):
-    if "Trên" in job_experience_required:
-        job_experience_required = job_experience_required[6:]
-        return {"min": int(job_experience_required[0]), "max": None}
-    
-    elif "Lên đến" in job_experience_required:
-        job_experience_required = job_experience_required[9:]
-        return {"min": None, "max": int(job_experience_required[0])}
+    try:
+        if "Trên" in job_experience_required:
+            job_experience_required = job_experience_required[6:]
+            return {"min": int(job_experience_required[0]), "max": None}
+        
+        elif "Lên đến" in job_experience_required:
+            job_experience_required = job_experience_required[9:]
+            return {"min": None, "max": int(job_experience_required[0])}
 
-    elif "not-found" in job_experience_required:
-        return {"min": None, "max": None}
+        elif "not-found" in job_experience_required:
+            return {"min": None, "max": None}
     
-    job_experience_required = job_experience_required[:5]
-    return {"min" :int(job_experience_required[0]), "max" : int(job_experience_required[4])}
+        job_experience_required = job_experience_required[:5]
+        return {"min" :int(job_experience_required[0]), "max" : int(job_experience_required[4])}
+    except:
+        return {"min": None, "max": None}
     
     
     
