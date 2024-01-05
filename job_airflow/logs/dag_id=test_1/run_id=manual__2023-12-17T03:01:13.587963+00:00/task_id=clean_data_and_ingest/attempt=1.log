@@ -1,47 +1,0 @@
-[2023-12-17T10:01:51.586+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_1.clean_data_and_ingest manual__2023-12-17T03:01:13.587963+00:00 [queued]>
-[2023-12-17T10:01:51.590+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_1.clean_data_and_ingest manual__2023-12-17T03:01:13.587963+00:00 [queued]>
-[2023-12-17T10:01:51.590+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 4
-[2023-12-17T10:01:51.597+0700] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): clean_data_and_ingest> on 2023-12-17 03:01:13.587963+00:00
-[2023-12-17T10:01:51.599+0700] {standard_task_runner.py:57} INFO - Started process 361463 to run task
-[2023-12-17T10:01:51.601+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_1', 'clean_data_and_ingest', 'manual__2023-12-17T03:01:13.587963+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dags.py', '--cfg-path', '/tmp/tmpgd5tfobz']
-[2023-12-17T10:01:51.602+0700] {standard_task_runner.py:85} INFO - Job 43: Subtask clean_data_and_ingest
-[2023-12-17T10:01:51.621+0700] {task_command.py:416} INFO - Running <TaskInstance: test_1.clean_data_and_ingest manual__2023-12-17T03:01:13.587963+00:00 [running]> on host phuc-ASUS
-[2023-12-17T10:01:51.654+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_1' AIRFLOW_CTX_TASK_ID='clean_data_and_ingest' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T03:01:13.587963+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-17T03:01:13.587963+00:00'
-[2023-12-17T10:01:51.655+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
-[2023-12-17T10:01:51.655+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 careerlink/transformation_and_ingestion.py $daily_table /home/phuc/Practice/DataScience/DSProject/data/ingestion/careerlink']
-[2023-12-17T10:01:51.659+0700] {subprocess.py:86} INFO - Output:
-[2023-12-17T10:01:52.719+0700] {subprocess.py:93} INFO - 23/12/17 10:01:52 WARN Utils: Your hostname, phuc-ASUS resolves to a loopback address: 127.0.1.1; using 192.168.0.103 instead (on interface wlp45s0)
-[2023-12-17T10:01:52.720+0700] {subprocess.py:93} INFO - 23/12/17 10:01:52 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-[2023-12-17T10:01:53.073+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
-[2023-12-17T10:01:53.126+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/phuc/.ivy2/cache
-[2023-12-17T10:01:53.126+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/phuc/.ivy2/jars
-[2023-12-17T10:01:53.129+0700] {subprocess.py:93} INFO - io.delta#delta-spark_2.12 added as a dependency
-[2023-12-17T10:01:53.129+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-fbbcc218-7167-4c6d-a0e2-503ba0924ff3;1.0
-[2023-12-17T10:01:53.129+0700] {subprocess.py:93} INFO - 	confs: [default]
-[2023-12-17T10:01:53.196+0700] {subprocess.py:93} INFO - 	found io.delta#delta-spark_2.12;3.0.0 in central
-[2023-12-17T10:01:53.212+0700] {subprocess.py:93} INFO - 	found io.delta#delta-storage;3.0.0 in central
-[2023-12-17T10:01:53.226+0700] {subprocess.py:93} INFO - 	found org.antlr#antlr4-runtime;4.9.3 in central
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 105ms :: artifacts dl 3ms
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	:: modules in use:
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	io.delta#delta-spark_2.12;3.0.0 from central in [default]
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	io.delta#delta-storage;3.0.0 from central in [default]
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	org.antlr#antlr4-runtime;4.9.3 from central in [default]
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
-[2023-12-17T10:01:53.238+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
-[2023-12-17T10:01:53.240+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-fbbcc218-7167-4c6d-a0e2-503ba0924ff3
-[2023-12-17T10:01:53.240+0700] {subprocess.py:93} INFO - 	confs: [default]
-[2023-12-17T10:01:53.244+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/4ms)
-[2023-12-17T10:01:53.366+0700] {subprocess.py:93} INFO - 23/12/17 10:01:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[2023-12-17T10:01:53.484+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
-[2023-12-17T10:01:53.484+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-[2023-12-17T10:01:54.062+0700] {subprocess.py:93} INFO - 23/12/17 10:01:54 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
-[2023-12-17T10:01:59.285+0700] {subprocess.py:93} INFO - 23/12/17 10:01:59 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
-[2023-12-17T10:02:02.169+0700] {subprocess.py:93} INFO - [Stage 4:>                                                        (0 + 12) / 50][Stage 4:=============>                                          (12 + 12) / 50][Stage 4:==========================>                             (24 + 12) / 50][Stage 4:=====================================================>   (47 + 3) / 50]
-[2023-12-17T10:02:02.170+0700] {subprocess.py:97} INFO - Command exited with return code 0
-[2023-12-17T10:02:02.185+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=test_1, task_id=clean_data_and_ingest, execution_date=20231217T030113, start_date=20231217T030151, end_date=20231217T030202
-[2023-12-17T10:02:02.204+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
-[2023-12-17T10:02:02.211+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

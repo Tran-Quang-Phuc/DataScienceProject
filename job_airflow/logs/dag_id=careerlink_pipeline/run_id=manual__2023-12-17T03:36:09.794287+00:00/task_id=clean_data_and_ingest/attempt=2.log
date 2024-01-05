@@ -1,61 +1,0 @@
-[2023-12-17T11:29:00.625+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [queued]>
-[2023-12-17T11:29:00.629+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [queued]>
-[2023-12-17T11:29:00.629+0700] {taskinstance.py:1361} INFO - Starting attempt 2 of 5
-[2023-12-17T11:29:00.636+0700] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): clean_data_and_ingest> on 2023-12-17 03:36:09.794287+00:00
-[2023-12-17T11:29:00.638+0700] {standard_task_runner.py:57} INFO - Started process 400522 to run task
-[2023-12-17T11:29:00.640+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'careerlink_pipeline', 'clean_data_and_ingest', 'manual__2023-12-17T03:36:09.794287+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dags.py', '--cfg-path', '/tmp/tmpgmkb25wb']
-[2023-12-17T11:29:00.640+0700] {standard_task_runner.py:85} INFO - Job 58: Subtask clean_data_and_ingest
-[2023-12-17T11:29:00.657+0700] {task_command.py:416} INFO - Running <TaskInstance: careerlink_pipeline.clean_data_and_ingest manual__2023-12-17T03:36:09.794287+00:00 [running]> on host phuc-ASUS
-[2023-12-17T11:29:00.691+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='careerlink_pipeline' AIRFLOW_CTX_TASK_ID='clean_data_and_ingest' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T03:36:09.794287+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-17T03:36:09.794287+00:00'
-[2023-12-17T11:29:00.692+0700] {subprocess.py:63} INFO - Tmp dir root location: /tmp
-[2023-12-17T11:29:00.692+0700] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 careerlink/transformation_and_ingestion.py $daily_table /home/phuc/Practice/DataScience/DSProject/data/ingestion/careerlink']
-[2023-12-17T11:29:00.697+0700] {subprocess.py:86} INFO - Output:
-[2023-12-17T11:29:01.839+0700] {subprocess.py:93} INFO - 23/12/17 11:29:01 WARN Utils: Your hostname, phuc-ASUS resolves to a loopback address: 127.0.1.1; using 192.168.0.103 instead (on interface wlp45s0)
-[2023-12-17T11:29:01.840+0700] {subprocess.py:93} INFO - 23/12/17 11:29:01 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-[2023-12-17T11:29:02.388+0700] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/phuc/Practice/DataScience/DSProject/venv/lib/python3.10/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
-[2023-12-17T11:29:02.447+0700] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/phuc/.ivy2/cache
-[2023-12-17T11:29:02.447+0700] {subprocess.py:93} INFO - The jars for the packages stored in: /home/phuc/.ivy2/jars
-[2023-12-17T11:29:02.450+0700] {subprocess.py:93} INFO - io.delta#delta-spark_2.12 added as a dependency
-[2023-12-17T11:29:02.451+0700] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-5c817252-1faa-445a-ab3f-acebeb20d7e6;1.0
-[2023-12-17T11:29:02.451+0700] {subprocess.py:93} INFO - 	confs: [default]
-[2023-12-17T11:29:02.533+0700] {subprocess.py:93} INFO - 	found io.delta#delta-spark_2.12;3.0.0 in central
-[2023-12-17T11:29:02.556+0700] {subprocess.py:93} INFO - 	found io.delta#delta-storage;3.0.0 in central
-[2023-12-17T11:29:02.576+0700] {subprocess.py:93} INFO - 	found org.antlr#antlr4-runtime;4.9.3 in central
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - :: resolution report :: resolve 135ms :: artifacts dl 5ms
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	:: modules in use:
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	io.delta#delta-spark_2.12;3.0.0 from central in [default]
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	io.delta#delta-storage;3.0.0 from central in [default]
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	org.antlr#antlr4-runtime;4.9.3 from central in [default]
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
-[2023-12-17T11:29:02.590+0700] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
-[2023-12-17T11:29:02.591+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
-[2023-12-17T11:29:02.591+0700] {subprocess.py:93} INFO - 	|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |
-[2023-12-17T11:29:02.591+0700] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
-[2023-12-17T11:29:02.592+0700] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-5c817252-1faa-445a-ab3f-acebeb20d7e6
-[2023-12-17T11:29:02.593+0700] {subprocess.py:93} INFO - 	confs: [default]
-[2023-12-17T11:29:02.597+0700] {subprocess.py:93} INFO - 	0 artifacts copied, 3 already retrieved (0kB/5ms)
-[2023-12-17T11:29:02.724+0700] {subprocess.py:93} INFO - 23/12/17 11:29:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[2023-12-17T11:29:02.848+0700] {subprocess.py:93} INFO - Setting default log level to "WARN".
-[2023-12-17T11:29:02.848+0700] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-[2023-12-17T11:29:03.486+0700] {subprocess.py:93} INFO - 23/12/17 11:29:03 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
-[2023-12-17T11:29:09.054+0700] {subprocess.py:93} INFO - 23/12/17 11:29:09 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
-[2023-12-17T11:29:15.656+0700] {subprocess.py:93} INFO - [Stage 4:>                                                        (0 + 12) / 50][Stage 4:=============>                                          (12 + 12) / 50][Stage 4:==========================>                             (24 + 12) / 50][Stage 4:==========================================>             (38 + 12) / 50]                                                                                [Stage 8:>                                                          (0 + 5) / 5]                                                                                23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.656+0700] {subprocess.py:93} INFO - Scaling row group sizes to 95.00% for 8 writers
-[2023-12-17T11:29:15.656+0700] {subprocess.py:93} INFO - 23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.656+0700] {subprocess.py:93} INFO - Scaling row group sizes to 84.44% for 9 writers
-[2023-12-17T11:29:15.656+0700] {subprocess.py:93} INFO - 23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.657+0700] {subprocess.py:93} INFO - Scaling row group sizes to 76.00% for 10 writers
-[2023-12-17T11:29:15.657+0700] {subprocess.py:93} INFO - 23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.657+0700] {subprocess.py:93} INFO - Scaling row group sizes to 69.09% for 11 writers
-[2023-12-17T11:29:15.971+0700] {subprocess.py:93} INFO - [Stage 22:>                                                       (0 + 11) / 11]23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.971+0700] {subprocess.py:93} INFO - Scaling row group sizes to 76.00% for 10 writers
-[2023-12-17T11:29:15.971+0700] {subprocess.py:93} INFO - 23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.971+0700] {subprocess.py:93} INFO - Scaling row group sizes to 84.44% for 9 writers
-[2023-12-17T11:29:15.971+0700] {subprocess.py:93} INFO - 23/12/17 11:29:15 WARN MemoryManager: Total allocation exceeds 95.00% (1,020,054,720 bytes) of heap memory
-[2023-12-17T11:29:15.971+0700] {subprocess.py:93} INFO - Scaling row group sizes to 95.00% for 8 writers
-[2023-12-17T11:29:18.034+0700] {subprocess.py:93} INFO -                                                                                 [Stage 26:===================================>                   (32 + 13) / 50]
-[2023-12-17T11:29:18.034+0700] {subprocess.py:97} INFO - Command exited with return code 0
-[2023-12-17T11:29:18.050+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=careerlink_pipeline, task_id=clean_data_and_ingest, execution_date=20231217T033609, start_date=20231217T042900, end_date=20231217T042918
-[2023-12-17T11:29:18.092+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
-[2023-12-17T11:29:18.111+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

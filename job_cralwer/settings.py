@@ -14,8 +14,8 @@ NEWSPIDER_MODULE = "job_cralwer.spiders"
 
 
 FEEDS = {
-    '/home/phuc/Practice/DataScience/DSProject/data/raw/%(name)s/%(time)s.jsonl': {
-        'format': 'json'
+    '/home/phuc/Practice/DataScience/DSProject/data/raw/%(name)s/%(time)s.csv': {
+        'format': 'csv'
     }
 }
 

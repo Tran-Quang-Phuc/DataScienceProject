@@ -27,7 +27,7 @@ def transform_and_ingest(
     builder = SparkSession.builder \
         .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
-
+    print("Daily table: ", daily_table)
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
     job_df = spark.read.csv(daily_table, header=True)
     job_df = job_df.withColumn("company_name", modify_company_name(job_df["company_name"]))

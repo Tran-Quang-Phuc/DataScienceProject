@@ -36,7 +36,7 @@ def create_custom_dag(source):
         )
 
         t1 = PythonOperator(
-            task_id = "check_daily_file_exists",
+            task_id = "get_daily_file",
             python_callable = find_matching_file,
             op_args = [raw_folder, pattern]
         )
@@ -44,7 +44,7 @@ def create_custom_dag(source):
         t2 = BashOperator(
             task_id = "clean_data_and_ingest",
             bash_command= f"python3 careerlink/transformation_and_ingestion.py $daily_table {ingest_table}",
-            env={'daily_table': "{{ ti.xcom_pull(task_ids='check_daily_file_exists', key='daily_table') }}"},
+            env={'daily_table': "{{ ti.xcom_pull(task_ids='get_daily_file', key='daily_table') }}"},
             append_env=True,
             cwd="/home/phuc/Practice/DataScience/DSProject/job_transformation"
         )
